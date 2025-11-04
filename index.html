@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mein Test – Einbürgerungstraining</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="splash-screen" class="splash-screen" aria-hidden="true">
+    <img src="cover-image.png" alt="Mein Test Logo" />
+  </div>
+  <header class="app-header">
+    <h1>Mein Test</h1>
+    <p>Trainiere den deutschen Einbürgerungstest und fokussiere dich auf die Fragen, die du noch nicht sicher beherrschst.</p>
+  </header>
+
+  <main class="app-main">
+    <section class="control-panel">
+      <div class="control-group">
+        <label for="filter-mode">Fragenmodus</label>
+        <select id="filter-mode">
+          <option value="unknown">Nur offene Fragen</option>
+          <option value="all">Alle Fragen</option>
+          <option value="known">Nur gelernte Fragen</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="question-number-input">Frage anspringen</label>
+        <input id="question-number-input" type="number" min="1" placeholder="Nummer" inputmode="numeric" />
+        <button id="jump-to-question" type="button">Anzeigen</button>
+      </div>
+      <div class="control-group">
+        <span id="progress-count">0 / 0 gelernt</span>
+        <span id="unknown-count">0 offene Fragen</span>
+        <span id="solution-count">0 Lösungen hinterlegt</span>
+      </div>
+      <div class="control-group control-buttons">
+        <button id="mark-known" type="button">Als gelernt markieren</button>
+        <button id="mark-unknown" type="button">Als unbekannt markieren</button>
+        <button id="next-question" type="button">Nächste Frage</button>
+        <button id="reset-progress" type="button" class="danger">Fortschritt zurücksetzen</button>
+      </div>
+    </section>
+
+    <section id="status" role="status" aria-live="polite"></section>
+
+    <section id="question-card" class="question-card" hidden>
+      <div class="section-info" id="section-info"></div>
+      <div class="question-meta">
+        <span class="question-number" id="question-number"></span>
+        <span class="question-pages" id="question-pages"></span>
+      </div>
+      <h2 id="question-text" class="question-text"></h2>
+
+      <div id="image-wrapper" class="images" aria-live="polite"></div>
+      <ul id="answers" class="answers"></ul>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>Tipp: Öffne die Seite über einen lokalen Webserver (z.&nbsp;B. <code>python -m http.server</code>), damit das Laden der Daten funktioniert.</p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+  <div id="image-lightbox" class="image-lightbox" hidden>
+    <div class="lightbox-content" role="dialog" aria-modal="true" aria-labelledby="lightbox-image">
+      <button id="close-lightbox" type="button" class="lightbox-close" aria-label="Bild schließen">×</button>
+      <img id="lightbox-image" src="" alt="" />
+    </div>
+  </div>
+</body>
+</html>
