@@ -21,11 +21,11 @@ Serve the project directory with a local web server so the browser can load the 
 python -m http.server
 ```
 
-Open `http://localhost:8000/` and start practicing. Your learned questions are saved in `localStorage`, so they persist between sessions on the same device.
+Open `http://localhost:8000/` (or the published build at [https://gekkedev.github.io/mein-test/](https://gekkedev.github.io/mein-test/)) and start practicing. Your learned questions are saved in `localStorage`, so they persist between sessions on the same device.
 
 ## Install as an app (PWA)
 
-1. Visit the app in your browser (e.g. `http://localhost:8000/`).
+1. Visit the app in your browser (e.g. `http://localhost:8000/` or [https://gekkedev.github.io/mein-test/](https://gekkedev.github.io/mein-test/)).
 2. Wait for the splash screen to disappear—during this time the service worker caches the full question catalog and all images.
 3. Use the browser’s install control ("Install app" in Chrome/Edge, "Add to Home Screen" on mobile Safari).
 
