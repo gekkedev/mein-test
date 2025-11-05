@@ -205,6 +205,34 @@ function filteredQuestions() {
   return unknown.length ? unknown : [...state.questions];
 }
 
+function getCatalogNumber(question) {
+  if (!question) {
+    return null;
+  }
+
+  if (typeof question.id === "number") {
+    return question.id;
+  }
+
+  if (typeof question.question_number === "number") {
+    return question.question_number;
+  }
+
+  return null;
+}
+
+function formatQuestionNumber(question) {
+  const catalogNumber = getCatalogNumber(question);
+  const baseLabel = typeof catalogNumber === "number" ? `Aufgabe ${catalogNumber}` : question.display_number ?? "";
+  const part = question?.section?.part;
+
+  if (part && part !== "Teil I") {
+    return `${baseLabel} (${part})`;
+  }
+
+  return baseLabel;
+}
+
 function renderQuestion() {
   const question = state.currentQuestion;
   if (!question) {
@@ -218,7 +246,7 @@ function renderQuestion() {
   elements.sectionInfo.textContent = parts;
   elements.sectionInfo.hidden = !parts;
 
-  elements.questionNumber.textContent = question.display_number;
+  elements.questionNumber.textContent = formatQuestionNumber(question);
   elements.questionPages.textContent = question.pages?.length ? `Seite ${question.pages.join(", ")}` : "";
   elements.questionText.textContent = question.question;
 
@@ -340,11 +368,12 @@ function handleJumpRequest() {
   }
 
   elements.questionNumberInput.value = "";
-  showQuestion(question, `Frage ${question.display_number} geladen.`);
+  showQuestion(question, `${formatQuestionNumber(question)} geladen.`);
 }
 
 function findQuestionByNumber(number) {
   return (
+    state.questions.find((question) => getCatalogNumber(question) === number) ??
     state.questions.find((question) => question.question_number === number) ??
     state.questions.find((question) => question.id === number)
   );
