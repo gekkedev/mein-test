@@ -29,6 +29,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  caret-color: transparent;
 }
 
 body.dark {
@@ -113,6 +114,12 @@ body.dark .control-panel button {
   transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
+input,
+textarea,
+select {
+  caret-color: auto;
+}
+
 .control-panel select:focus,
 .control-panel input:focus,
 .control-panel button:focus {
@@ -195,6 +202,9 @@ body.dark .question-meta {
 .question-text {
   margin: 0;
   font-size: clamp(1.4rem, 3vw, 1.8rem);
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .answers {
@@ -204,6 +214,16 @@ body.dark .question-meta {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.answer-option,
+.answer-option * {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .answer-option {
