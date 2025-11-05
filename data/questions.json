@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "gesamtfragenkatalog-lebenindeutschland.pdf",
-    "generated_at": "2025-11-04T23:44:07.882630+00:00",
+    "generated_at": "2025-11-04T23:22:33.557846+00:00",
     "question_count": 460
   },
   "questions": [
@@ -31,7 +31,8 @@
       "pages": [
         2
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 2,
@@ -59,7 +60,8 @@
       "pages": [
         2
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 3,
@@ -87,7 +89,8 @@
       "pages": [
         2
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 4,
@@ -115,7 +118,8 @@
       "pages": [
         3
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 5,
@@ -143,7 +147,8 @@
       "pages": [
         3
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 6,
@@ -171,7 +176,8 @@
       "pages": [
         3
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 7,
@@ -199,7 +205,8 @@
       "pages": [
         4
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 8,
@@ -227,7 +234,8 @@
       "pages": [
         4
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 9,
@@ -255,7 +263,8 @@
       "pages": [
         4
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 10,
@@ -283,7 +292,8 @@
       "pages": [
         5
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 11,
@@ -311,7 +321,8 @@
       "pages": [
         5
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 12,
@@ -339,7 +350,8 @@
       "pages": [
         5
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 13,
@@ -367,7 +379,8 @@
       "pages": [
         6
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 14,
@@ -395,7 +408,8 @@
       "pages": [
         6
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 15,
@@ -423,7 +437,8 @@
       "pages": [
         6
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 16,
@@ -451,7 +466,8 @@
       "pages": [
         7
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 17,
@@ -479,7 +495,8 @@
       "pages": [
         7
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 18,
@@ -507,7 +524,8 @@
       "pages": [
         7
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 19,
@@ -535,7 +553,8 @@
       "pages": [
         8
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 20,
@@ -563,7 +582,8 @@
       "pages": [
         8
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 21,
@@ -624,7 +644,8 @@
       "pages": [
         9
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 23,
@@ -652,7 +673,8 @@
       "pages": [
         10
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 24,
@@ -680,7 +702,8 @@
       "pages": [
         10
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 25,
@@ -708,7 +731,8 @@
       "pages": [
         10
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 26,
@@ -736,7 +760,8 @@
       "pages": [
         11
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 27,
@@ -764,7 +789,8 @@
       "pages": [
         11
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 28,
@@ -792,7 +818,8 @@
       "pages": [
         11
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 29,
@@ -820,7 +847,8 @@
       "pages": [
         12
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 30,
@@ -848,7 +876,8 @@
       "pages": [
         12
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 31,
@@ -876,7 +905,8 @@
       "pages": [
         12
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 32,
@@ -904,7 +934,8 @@
       "pages": [
         13
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 33,
@@ -932,7 +963,8 @@
       "pages": [
         13
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 34,
@@ -960,7 +992,8 @@
       "pages": [
         13
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 35,
@@ -988,7 +1021,8 @@
       "pages": [
         14
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 36,
@@ -1016,7 +1050,8 @@
       "pages": [
         14
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 37,
@@ -1044,7 +1079,8 @@
       "pages": [
         14
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 38,
@@ -1072,7 +1108,8 @@
       "pages": [
         15
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 39,
@@ -1100,7 +1137,8 @@
       "pages": [
         15
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 40,
@@ -1128,7 +1166,8 @@
       "pages": [
         15
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 41,
@@ -1156,7 +1195,8 @@
       "pages": [
         16
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 42,
@@ -1184,7 +1224,8 @@
       "pages": [
         16
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 43,
@@ -1212,7 +1253,8 @@
       "pages": [
         16
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 44,
@@ -1240,7 +1282,8 @@
       "pages": [
         17
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 45,
@@ -1268,7 +1311,8 @@
       "pages": [
         17
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 46,
@@ -1296,7 +1340,8 @@
       "pages": [
         17
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 47,
@@ -1324,7 +1369,8 @@
       "pages": [
         18
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 48,
@@ -1352,7 +1398,8 @@
       "pages": [
         18
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 49,
@@ -1380,7 +1427,8 @@
       "pages": [
         18
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 50,
@@ -1408,7 +1456,8 @@
       "pages": [
         19
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 51,
@@ -1436,7 +1485,8 @@
       "pages": [
         19
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 52,
@@ -1464,7 +1514,8 @@
       "pages": [
         19
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 53,
@@ -1492,7 +1543,8 @@
       "pages": [
         20
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 54,
@@ -1520,7 +1572,8 @@
       "pages": [
         20
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 55,
@@ -1578,7 +1631,8 @@
       "pages": [
         21
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 57,
@@ -1606,7 +1660,8 @@
       "pages": [
         22
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 58,
@@ -1634,7 +1689,8 @@
       "pages": [
         22
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 59,
@@ -1649,7 +1705,8 @@
       "pages": [
         22
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 60,
@@ -1677,7 +1734,8 @@
       "pages": [
         23
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 61,
@@ -1705,7 +1763,8 @@
       "pages": [
         23
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 62,
@@ -1733,7 +1792,8 @@
       "pages": [
         23
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 63,
@@ -1761,7 +1821,8 @@
       "pages": [
         24
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 64,
@@ -1789,7 +1850,8 @@
       "pages": [
         24
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 65,
@@ -1817,7 +1879,8 @@
       "pages": [
         24
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 66,
@@ -1832,7 +1895,8 @@
       "pages": [
         25
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 67,
@@ -1860,7 +1924,8 @@
       "pages": [
         25
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 68,
@@ -1888,7 +1953,8 @@
       "pages": [
         25
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 69,
@@ -1916,7 +1982,8 @@
       "pages": [
         26
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 70,
@@ -1974,7 +2041,8 @@
       "pages": [
         28
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 72,
@@ -2002,7 +2070,8 @@
       "pages": [
         28
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 73,
@@ -2030,7 +2099,8 @@
       "pages": [
         28
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 74,
@@ -2058,7 +2128,8 @@
       "pages": [
         29
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 75,
@@ -2086,7 +2157,8 @@
       "pages": [
         29
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 76,
@@ -2114,7 +2186,8 @@
       "pages": [
         29
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 77,
@@ -2142,7 +2215,8 @@
       "pages": [
         30
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 78,
@@ -2170,7 +2244,8 @@
       "pages": [
         30
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 79,
@@ -2198,7 +2273,8 @@
       "pages": [
         30
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 80,
@@ -2226,7 +2302,8 @@
       "pages": [
         31
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 81,
@@ -2254,7 +2331,8 @@
       "pages": [
         31
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 82,
@@ -2282,7 +2360,8 @@
       "pages": [
         31
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 83,
@@ -2310,7 +2389,8 @@
       "pages": [
         32
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 84,
@@ -2338,7 +2418,8 @@
       "pages": [
         32
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 85,
@@ -2366,7 +2447,8 @@
       "pages": [
         32
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 86,
@@ -2394,7 +2476,8 @@
       "pages": [
         33
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 87,
@@ -2422,7 +2505,8 @@
       "pages": [
         33
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 88,
@@ -2450,7 +2534,8 @@
       "pages": [
         33
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 89,
@@ -2478,7 +2563,8 @@
       "pages": [
         34
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 90,
@@ -2506,7 +2592,8 @@
       "pages": [
         34
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 91,
@@ -2534,7 +2621,8 @@
       "pages": [
         34
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 92,
@@ -2562,7 +2650,8 @@
       "pages": [
         35
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 93,
@@ -2590,7 +2679,8 @@
       "pages": [
         35
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 94,
@@ -2618,7 +2708,8 @@
       "pages": [
         35
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 95,
@@ -2646,7 +2737,8 @@
       "pages": [
         36
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 96,
@@ -2661,7 +2753,8 @@
       "pages": [
         36
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 97,
@@ -2689,7 +2782,8 @@
       "pages": [
         36
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 98,
@@ -2717,7 +2811,8 @@
       "pages": [
         37
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 99,
@@ -2745,7 +2840,8 @@
       "pages": [
         37
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 100,
@@ -2773,7 +2869,8 @@
       "pages": [
         37
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 101,
@@ -2801,7 +2898,8 @@
       "pages": [
         38
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 102,
@@ -2829,7 +2927,8 @@
       "pages": [
         38
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 103,
@@ -2857,7 +2956,8 @@
       "pages": [
         38
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 104,
@@ -2885,7 +2985,8 @@
       "pages": [
         39
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 105,
@@ -2913,7 +3014,8 @@
       "pages": [
         39
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 106,
@@ -2941,7 +3043,8 @@
       "pages": [
         39
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 107,
@@ -2969,7 +3072,8 @@
       "pages": [
         40
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 108,
@@ -2997,7 +3101,8 @@
       "pages": [
         40
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 109,
@@ -3025,7 +3130,8 @@
       "pages": [
         40
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 110,
@@ -3053,7 +3159,8 @@
       "pages": [
         41
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 111,
@@ -3068,7 +3175,8 @@
       "pages": [
         41
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 112,
@@ -3096,7 +3204,8 @@
       "pages": [
         41
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 113,
@@ -3124,7 +3233,8 @@
       "pages": [
         42
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 114,
@@ -3152,7 +3262,8 @@
       "pages": [
         42
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 115,
@@ -3180,7 +3291,8 @@
       "pages": [
         42
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 116,
@@ -3208,7 +3320,8 @@
       "pages": [
         43
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 117,
@@ -3236,7 +3349,8 @@
       "pages": [
         43
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 118,
@@ -3251,7 +3365,8 @@
       "pages": [
         43
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 119,
@@ -3279,7 +3394,8 @@
       "pages": [
         44
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 120,
@@ -3307,7 +3423,8 @@
       "pages": [
         44
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 121,
@@ -3335,7 +3452,8 @@
       "pages": [
         44
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 122,
@@ -3363,7 +3481,8 @@
       "pages": [
         45
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 123,
@@ -3391,7 +3510,8 @@
       "pages": [
         45
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 124,
@@ -3419,7 +3539,8 @@
       "pages": [
         45
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 125,
@@ -3447,7 +3568,8 @@
       "pages": [
         46
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 126,
@@ -3475,7 +3597,8 @@
       "pages": [
         46
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 127,
@@ -3503,7 +3626,8 @@
       "pages": [
         46
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 128,
@@ -3531,7 +3655,8 @@
       "pages": [
         47
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 129,
@@ -3559,7 +3684,8 @@
       "pages": [
         47
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 130,
@@ -3617,7 +3743,8 @@
       "pages": [
         49
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 132,
@@ -3645,7 +3772,8 @@
       "pages": [
         49
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 133,
@@ -3673,7 +3801,8 @@
       "pages": [
         49
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 134,
@@ -3701,7 +3830,8 @@
       "pages": [
         50
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 135,
@@ -3729,7 +3859,8 @@
       "pages": [
         50
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 136,
@@ -3757,7 +3888,8 @@
       "pages": [
         50
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 137,
@@ -3785,7 +3917,8 @@
       "pages": [
         51
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 138,
@@ -3813,7 +3946,8 @@
       "pages": [
         51
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 139,
@@ -3841,7 +3975,8 @@
       "pages": [
         51
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 140,
@@ -3869,7 +4004,8 @@
       "pages": [
         52
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 141,
@@ -3897,7 +4033,8 @@
       "pages": [
         52
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 142,
@@ -3925,7 +4062,8 @@
       "pages": [
         52
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 143,
@@ -3953,7 +4091,8 @@
       "pages": [
         53
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 144,
@@ -3981,7 +4120,8 @@
       "pages": [
         53
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 145,
@@ -4009,7 +4149,8 @@
       "pages": [
         53
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 146,
@@ -4037,7 +4178,8 @@
       "pages": [
         54
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 147,
@@ -4065,7 +4207,8 @@
       "pages": [
         54
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 148,
@@ -4093,7 +4236,8 @@
       "pages": [
         54
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 149,
@@ -4108,7 +4252,8 @@
       "pages": [
         55
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 150,
@@ -4136,7 +4281,8 @@
       "pages": [
         55
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 151,
@@ -4164,7 +4310,8 @@
       "pages": [
         55
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 152,
@@ -4192,7 +4339,8 @@
       "pages": [
         56
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 153,
@@ -4220,7 +4368,8 @@
       "pages": [
         56
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 154,
@@ -4248,7 +4397,8 @@
       "pages": [
         56
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 155,
@@ -4276,7 +4426,8 @@
       "pages": [
         57
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 156,
@@ -4304,7 +4455,8 @@
       "pages": [
         57
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 157,
@@ -4332,7 +4484,8 @@
       "pages": [
         57
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 158,
@@ -4360,7 +4513,8 @@
       "pages": [
         58
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 159,
@@ -4388,7 +4542,8 @@
       "pages": [
         58
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 160,
@@ -4416,7 +4571,8 @@
       "pages": [
         58
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 161,
@@ -4444,7 +4600,8 @@
       "pages": [
         59
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 162,
@@ -4472,7 +4629,8 @@
       "pages": [
         59
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 163,
@@ -4500,7 +4658,8 @@
       "pages": [
         59
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 164,
@@ -4528,7 +4687,8 @@
       "pages": [
         60
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 165,
@@ -4556,7 +4716,8 @@
       "pages": [
         60
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 166,
@@ -4584,7 +4745,8 @@
       "pages": [
         60
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 167,
@@ -4612,7 +4774,8 @@
       "pages": [
         61
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 168,
@@ -4640,7 +4803,8 @@
       "pages": [
         61
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 169,
@@ -4668,7 +4832,8 @@
       "pages": [
         61
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 170,
@@ -4696,7 +4861,8 @@
       "pages": [
         62
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 171,
@@ -4724,7 +4890,8 @@
       "pages": [
         62
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 172,
@@ -4752,7 +4919,8 @@
       "pages": [
         62
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 173,
@@ -4780,7 +4948,8 @@
       "pages": [
         63
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 174,
@@ -4808,7 +4977,8 @@
       "pages": [
         63
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 175,
@@ -4836,7 +5006,8 @@
       "pages": [
         63
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 176,
@@ -4894,7 +5065,8 @@
       "pages": [
         65
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 178,
@@ -4922,7 +5094,8 @@
       "pages": [
         65
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 179,
@@ -4950,7 +5123,8 @@
       "pages": [
         65
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 180,
@@ -4978,7 +5152,8 @@
       "pages": [
         66
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 181,
@@ -5023,7 +5198,8 @@
       "pages": [
         68
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 183,
@@ -5051,7 +5227,8 @@
       "pages": [
         68
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 184,
@@ -5066,7 +5243,8 @@
       "pages": [
         68
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 185,
@@ -5094,7 +5272,8 @@
       "pages": [
         69
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 186,
@@ -5122,7 +5301,8 @@
       "pages": [
         69
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 187,
@@ -5180,7 +5360,8 @@
       "pages": [
         70
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 189,
@@ -5208,7 +5389,8 @@
       "pages": [
         71
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 190,
@@ -5236,7 +5418,8 @@
       "pages": [
         71
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 191,
@@ -5264,7 +5447,8 @@
       "pages": [
         71
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 192,
@@ -5292,7 +5476,8 @@
       "pages": [
         72
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 193,
@@ -5320,7 +5505,8 @@
       "pages": [
         72
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 194,
@@ -5348,7 +5534,8 @@
       "pages": [
         72
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 195,
@@ -5376,7 +5563,8 @@
       "pages": [
         73
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 196,
@@ -5404,7 +5592,8 @@
       "pages": [
         73
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 197,
@@ -5432,7 +5621,8 @@
       "pages": [
         73
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 198,
@@ -5460,7 +5650,8 @@
       "pages": [
         74
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 199,
@@ -5488,7 +5679,8 @@
       "pages": [
         74
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 200,
@@ -5516,7 +5708,8 @@
       "pages": [
         74
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 201,
@@ -5544,7 +5737,8 @@
       "pages": [
         75
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 202,
@@ -5572,7 +5766,8 @@
       "pages": [
         75
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 203,
@@ -5600,7 +5795,8 @@
       "pages": [
         75
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 204,
@@ -5628,7 +5824,8 @@
       "pages": [
         76
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 205,
@@ -5656,7 +5853,8 @@
       "pages": [
         76
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 206,
@@ -5671,7 +5869,8 @@
       "pages": [
         76
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 207,
@@ -5699,7 +5898,8 @@
       "pages": [
         77
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 208,
@@ -5727,7 +5927,8 @@
       "pages": [
         77
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 209,
@@ -5788,7 +5989,8 @@
       "pages": [
         78
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 211,
@@ -5816,7 +6018,8 @@
       "pages": [
         79
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 212,
@@ -5844,7 +6047,8 @@
       "pages": [
         79
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 213,
@@ -5872,7 +6076,8 @@
       "pages": [
         79
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 214,
@@ -5900,7 +6105,8 @@
       "pages": [
         80
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 215,
@@ -5928,7 +6134,8 @@
       "pages": [
         80
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 216,
@@ -5986,7 +6193,8 @@
       "pages": [
         81
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 218,
@@ -6014,7 +6222,8 @@
       "pages": [
         82
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 219,
@@ -6042,7 +6251,8 @@
       "pages": [
         82
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 220,
@@ -6070,7 +6280,8 @@
       "pages": [
         82
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 221,
@@ -6098,7 +6309,8 @@
       "pages": [
         83
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 222,
@@ -6126,7 +6338,8 @@
       "pages": [
         83
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 223,
@@ -6154,7 +6367,8 @@
       "pages": [
         83
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 224,
@@ -6182,7 +6396,8 @@
       "pages": [
         84
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 225,
@@ -6210,7 +6425,8 @@
       "pages": [
         84
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 226,
@@ -6271,7 +6487,8 @@
       "pages": [
         85
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 228,
@@ -6299,7 +6516,8 @@
       "pages": [
         85
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 229,
@@ -6327,7 +6545,8 @@
       "pages": [
         86
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 230,
@@ -6355,7 +6574,8 @@
       "pages": [
         86
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 231,
@@ -6383,7 +6603,8 @@
       "pages": [
         86
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 232,
@@ -6411,7 +6632,8 @@
       "pages": [
         87
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 233,
@@ -6439,7 +6661,8 @@
       "pages": [
         87
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 234,
@@ -6467,7 +6690,8 @@
       "pages": [
         87
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 235,
@@ -6525,7 +6749,8 @@
       "pages": [
         89
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 237,
@@ -6553,7 +6778,8 @@
       "pages": [
         89
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 238,
@@ -6581,7 +6807,8 @@
       "pages": [
         89
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 239,
@@ -6609,7 +6836,8 @@
       "pages": [
         90
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 240,
@@ -6637,7 +6865,8 @@
       "pages": [
         90
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 241,
@@ -6665,7 +6894,8 @@
       "pages": [
         90
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 242,
@@ -6693,7 +6923,8 @@
       "pages": [
         91
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 243,
@@ -6721,7 +6952,8 @@
       "pages": [
         91
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 244,
@@ -6749,7 +6981,8 @@
       "pages": [
         91
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 245,
@@ -6777,7 +7010,8 @@
       "pages": [
         92
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 246,
@@ -6805,7 +7039,8 @@
       "pages": [
         92
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 247,
@@ -6833,7 +7068,8 @@
       "pages": [
         92
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 248,
@@ -6861,7 +7097,8 @@
       "pages": [
         93
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 249,
@@ -6889,7 +7126,8 @@
       "pages": [
         93
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 250,
@@ -6917,7 +7155,8 @@
       "pages": [
         93
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 251,
@@ -6945,7 +7184,8 @@
       "pages": [
         94
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 252,
@@ -6973,7 +7213,8 @@
       "pages": [
         94
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 253,
@@ -7001,7 +7242,8 @@
       "pages": [
         94
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 254,
@@ -7029,7 +7271,8 @@
       "pages": [
         95
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 255,
@@ -7057,7 +7300,8 @@
       "pages": [
         95
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 256,
@@ -7085,7 +7329,8 @@
       "pages": [
         95
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 257,
@@ -7113,7 +7358,8 @@
       "pages": [
         96
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 258,
@@ -7141,7 +7387,8 @@
       "pages": [
         96
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 259,
@@ -7169,7 +7416,8 @@
       "pages": [
         96
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 260,
@@ -7197,7 +7445,8 @@
       "pages": [
         97
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 261,
@@ -7225,7 +7474,8 @@
       "pages": [
         97
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 262,
@@ -7253,7 +7503,8 @@
       "pages": [
         97
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 263,
@@ -7281,7 +7532,8 @@
       "pages": [
         98
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 264,
@@ -7309,7 +7561,8 @@
       "pages": [
         98
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 265,
@@ -7337,7 +7590,8 @@
       "pages": [
         98
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 266,
@@ -7365,7 +7619,8 @@
       "pages": [
         99
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 267,
@@ -7393,7 +7648,8 @@
       "pages": [
         99
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 268,
@@ -7421,7 +7677,8 @@
       "pages": [
         99
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 269,
@@ -7449,7 +7706,8 @@
       "pages": [
         100
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 270,
@@ -7477,7 +7735,8 @@
       "pages": [
         100
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 271,
@@ -7505,7 +7764,8 @@
       "pages": [
         100
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 272,
@@ -7533,7 +7793,8 @@
       "pages": [
         101
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 273,
@@ -7561,7 +7822,8 @@
       "pages": [
         101
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 274,
@@ -7589,7 +7851,8 @@
       "pages": [
         101
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 275,
@@ -7617,7 +7880,8 @@
       "pages": [
         102
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 276,
@@ -7645,7 +7909,8 @@
       "pages": [
         102
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 277,
@@ -7673,7 +7938,8 @@
       "pages": [
         102
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 278,
@@ -7701,7 +7967,8 @@
       "pages": [
         103
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 279,
@@ -7729,7 +7996,8 @@
       "pages": [
         103
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 280,
@@ -7757,7 +8025,8 @@
       "pages": [
         103
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 281,
@@ -7785,7 +8054,8 @@
       "pages": [
         104
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 282,
@@ -7813,7 +8083,8 @@
       "pages": [
         104
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 283,
@@ -7841,7 +8112,8 @@
       "pages": [
         104
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 284,
@@ -7869,7 +8141,8 @@
       "pages": [
         105
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 285,
@@ -7897,7 +8170,8 @@
       "pages": [
         105
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 286,
@@ -7925,7 +8199,8 @@
       "pages": [
         105
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 287,
@@ -7953,7 +8228,8 @@
       "pages": [
         106
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 288,
@@ -7968,7 +8244,8 @@
       "pages": [
         106
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 289,
@@ -7996,7 +8273,8 @@
       "pages": [
         107
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 290,
@@ -8024,7 +8302,8 @@
       "pages": [
         108
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 291,
@@ -8052,7 +8331,8 @@
       "pages": [
         108
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 292,
@@ -8080,7 +8360,8 @@
       "pages": [
         108
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 293,
@@ -8108,7 +8389,8 @@
       "pages": [
         109
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 294,
@@ -8136,7 +8418,8 @@
       "pages": [
         109
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 295,
@@ -8164,7 +8447,8 @@
       "pages": [
         109
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 296,
@@ -8192,7 +8476,8 @@
       "pages": [
         110
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 297,
@@ -8220,7 +8505,8 @@
       "pages": [
         110
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 298,
@@ -8248,7 +8534,8 @@
       "pages": [
         110
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 299,
@@ -8276,7 +8563,8 @@
       "pages": [
         111
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 300,
@@ -8305,7 +8593,8 @@
         111,
         112
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 301,
@@ -8366,7 +8655,8 @@
       "pages": [
         112
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 303,
@@ -8394,7 +8684,8 @@
       "pages": [
         113
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 304,
@@ -8422,7 +8713,8 @@
       "pages": [
         113
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 305,
@@ -8450,7 +8742,8 @@
       "pages": [
         113
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 306,
@@ -8478,7 +8771,8 @@
       "pages": [
         114
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 307,
@@ -8506,7 +8800,8 @@
       "pages": [
         114
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 308,
@@ -8564,7 +8859,8 @@
       "pages": [
         116
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 310,
@@ -8593,7 +8889,8 @@
         116,
         117
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 311,
@@ -8654,7 +8951,8 @@
       "pages": [
         117
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 313,
@@ -8682,7 +8980,8 @@
       "pages": [
         118
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 314,
@@ -8710,7 +9009,8 @@
       "pages": [
         118
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 315,
@@ -8738,7 +9038,8 @@
       "pages": [
         118
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 316,
@@ -8766,7 +9067,8 @@
       "pages": [
         119
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 317,
@@ -8794,7 +9096,8 @@
       "pages": [
         119
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 318,
@@ -8852,7 +9155,8 @@
       "pages": [
         121
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 320,
@@ -8881,7 +9185,8 @@
         121,
         122
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 321,
@@ -8942,7 +9247,8 @@
       "pages": [
         122
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 323,
@@ -8970,7 +9276,8 @@
       "pages": [
         123
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 324,
@@ -8998,7 +9305,8 @@
       "pages": [
         123
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 325,
@@ -9026,7 +9334,8 @@
       "pages": [
         123
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 326,
@@ -9054,7 +9363,8 @@
       "pages": [
         124
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 327,
@@ -9082,7 +9392,8 @@
       "pages": [
         124
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 328,
@@ -9140,7 +9451,8 @@
       "pages": [
         126
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 330,
@@ -9169,7 +9481,8 @@
         126,
         127
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 331,
@@ -9230,7 +9543,8 @@
       "pages": [
         127
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 333,
@@ -9258,7 +9572,8 @@
       "pages": [
         128
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 334,
@@ -9286,7 +9601,8 @@
       "pages": [
         128
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 335,
@@ -9314,7 +9630,8 @@
       "pages": [
         128
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 336,
@@ -9342,7 +9659,8 @@
       "pages": [
         129
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 337,
@@ -9370,7 +9688,8 @@
       "pages": [
         129
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 338,
@@ -9428,7 +9747,8 @@
       "pages": [
         131
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 340,
@@ -9457,7 +9777,8 @@
         131,
         132
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 341,
@@ -9518,7 +9839,8 @@
       "pages": [
         132
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 343,
@@ -9546,7 +9868,8 @@
       "pages": [
         133
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 344,
@@ -9574,7 +9897,8 @@
       "pages": [
         133
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 345,
@@ -9602,7 +9926,8 @@
       "pages": [
         133
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 346,
@@ -9630,7 +9955,8 @@
       "pages": [
         134
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 347,
@@ -9658,7 +9984,8 @@
       "pages": [
         134
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 348,
@@ -9716,7 +10043,8 @@
       "pages": [
         136
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 350,
@@ -9745,7 +10073,8 @@
         136,
         137
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 351,
@@ -9806,7 +10135,8 @@
       "pages": [
         137
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 353,
@@ -9834,7 +10164,8 @@
       "pages": [
         138
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 354,
@@ -9862,7 +10193,8 @@
       "pages": [
         138
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 355,
@@ -9890,7 +10222,8 @@
       "pages": [
         138
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 356,
@@ -9918,7 +10251,8 @@
       "pages": [
         139
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 357,
@@ -9946,7 +10280,8 @@
       "pages": [
         139
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 358,
@@ -10004,7 +10339,8 @@
       "pages": [
         141
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 360,
@@ -10033,7 +10369,8 @@
         141,
         142
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 361,
@@ -10094,7 +10431,8 @@
       "pages": [
         142
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 363,
@@ -10122,7 +10460,8 @@
       "pages": [
         143
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 364,
@@ -10150,7 +10489,8 @@
       "pages": [
         143
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 365,
@@ -10178,7 +10518,8 @@
       "pages": [
         143
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 366,
@@ -10206,7 +10547,8 @@
       "pages": [
         144
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 367,
@@ -10234,7 +10576,8 @@
       "pages": [
         144
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 368,
@@ -10292,7 +10635,8 @@
       "pages": [
         146
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 370,
@@ -10321,7 +10665,8 @@
         146,
         147
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 371,
@@ -10382,7 +10727,8 @@
       "pages": [
         147
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 373,
@@ -10410,7 +10756,8 @@
       "pages": [
         148
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 374,
@@ -10438,7 +10785,8 @@
       "pages": [
         148
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 375,
@@ -10466,7 +10814,8 @@
       "pages": [
         148
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 376,
@@ -10494,7 +10843,8 @@
       "pages": [
         149
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 377,
@@ -10522,7 +10872,8 @@
       "pages": [
         149
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 378,
@@ -10580,7 +10931,8 @@
       "pages": [
         151
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 380,
@@ -10609,7 +10961,8 @@
         151,
         152
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 381,
@@ -10670,7 +11023,8 @@
       "pages": [
         152
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 383,
@@ -10698,7 +11052,8 @@
       "pages": [
         153
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 384,
@@ -10726,7 +11081,8 @@
       "pages": [
         153
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 385,
@@ -10754,7 +11110,8 @@
       "pages": [
         153
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 386,
@@ -10782,7 +11139,8 @@
       "pages": [
         154
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 387,
@@ -10810,7 +11168,8 @@
       "pages": [
         154
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 388,
@@ -10868,7 +11227,8 @@
       "pages": [
         156
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 390,
@@ -10897,7 +11257,8 @@
         156,
         157
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 391,
@@ -10958,7 +11319,8 @@
       "pages": [
         157
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 393,
@@ -10986,7 +11348,8 @@
       "pages": [
         158
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 394,
@@ -11014,7 +11377,8 @@
       "pages": [
         158
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 395,
@@ -11042,7 +11406,8 @@
       "pages": [
         158
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 396,
@@ -11070,7 +11435,8 @@
       "pages": [
         159
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 397,
@@ -11098,7 +11464,8 @@
       "pages": [
         159
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 398,
@@ -11156,7 +11523,8 @@
       "pages": [
         161
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 400,
@@ -11185,7 +11553,8 @@
         161,
         162
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 401,
@@ -11246,7 +11615,8 @@
       "pages": [
         162
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 403,
@@ -11274,7 +11644,8 @@
       "pages": [
         163
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 404,
@@ -11302,7 +11673,8 @@
       "pages": [
         163
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 405,
@@ -11330,7 +11702,8 @@
       "pages": [
         163
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 406,
@@ -11358,7 +11731,8 @@
       "pages": [
         164
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 407,
@@ -11386,7 +11760,8 @@
       "pages": [
         164
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 408,
@@ -11444,7 +11819,8 @@
       "pages": [
         166
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 410,
@@ -11473,7 +11849,8 @@
         166,
         167
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 411,
@@ -11534,7 +11911,8 @@
       "pages": [
         167
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 413,
@@ -11562,7 +11940,8 @@
       "pages": [
         168
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 414,
@@ -11590,7 +11969,8 @@
       "pages": [
         168
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 415,
@@ -11618,7 +11998,8 @@
       "pages": [
         168
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 416,
@@ -11646,7 +12027,8 @@
       "pages": [
         169
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 417,
@@ -11674,7 +12056,8 @@
       "pages": [
         169
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 418,
@@ -11732,7 +12115,8 @@
       "pages": [
         171
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 420,
@@ -11761,7 +12145,8 @@
         171,
         172
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 421,
@@ -11822,7 +12207,8 @@
       "pages": [
         172
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 423,
@@ -11850,7 +12236,8 @@
       "pages": [
         173
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 424,
@@ -11878,7 +12265,8 @@
       "pages": [
         173
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 425,
@@ -11906,7 +12294,8 @@
       "pages": [
         173
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 426,
@@ -11934,7 +12323,8 @@
       "pages": [
         174
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 427,
@@ -11962,7 +12352,8 @@
       "pages": [
         174
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 428,
@@ -12020,7 +12411,8 @@
       "pages": [
         176
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 430,
@@ -12049,7 +12441,8 @@
         176,
         177
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 431,
@@ -12110,7 +12503,8 @@
       "pages": [
         177
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 433,
@@ -12138,7 +12532,8 @@
       "pages": [
         178
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 434,
@@ -12166,7 +12561,8 @@
       "pages": [
         178
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 435,
@@ -12194,7 +12590,8 @@
       "pages": [
         178
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 436,
@@ -12222,7 +12619,8 @@
       "pages": [
         179
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 437,
@@ -12250,7 +12648,8 @@
       "pages": [
         179
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 438,
@@ -12308,7 +12707,8 @@
       "pages": [
         181
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 440,
@@ -12337,7 +12737,8 @@
         181,
         182
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 441,
@@ -12398,7 +12799,8 @@
       "pages": [
         182
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 443,
@@ -12426,7 +12828,8 @@
       "pages": [
         183
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 444,
@@ -12454,7 +12857,8 @@
       "pages": [
         183
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 445,
@@ -12482,7 +12886,8 @@
       "pages": [
         183
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 446,
@@ -12510,7 +12915,8 @@
       "pages": [
         184
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 447,
@@ -12538,7 +12944,8 @@
       "pages": [
         184
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 448,
@@ -12596,7 +13003,8 @@
       "pages": [
         186
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 450,
@@ -12625,7 +13033,8 @@
         186,
         187
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 451,
@@ -12686,7 +13095,8 @@
       "pages": [
         187
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 453,
@@ -12714,7 +13124,8 @@
       "pages": [
         188
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 454,
@@ -12742,7 +13153,8 @@
       "pages": [
         188
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 455,
@@ -12770,7 +13182,8 @@
       "pages": [
         188
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 456,
@@ -12798,7 +13211,8 @@
       "pages": [
         189
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 457,
@@ -12826,7 +13240,8 @@
       "pages": [
         189
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 458,
@@ -12884,7 +13299,8 @@
       "pages": [
         191
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 460,
@@ -12912,7 +13328,8 @@
       "pages": [
         191
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     }
   ]
 }
