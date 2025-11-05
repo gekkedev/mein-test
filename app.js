@@ -59,6 +59,7 @@ async function init() {
     setStatus("Die Fragen konnten nicht geladen werden. Bitte starte einen lokalen Webserver (z.&nbsp;B. <code>python -m http.server</code>).", true);
   } finally {
     scheduleSplashHide();
+    registerServiceWorker();
   }
 }
 
@@ -475,6 +476,16 @@ function closeImageLightbox(options = {}) {
   }
 
   state.lastFocusedImage = null;
+}
+
+function registerServiceWorker() {
+  if (!("serviceWorker" in navigator)) {
+    return;
+  }
+
+  navigator.serviceWorker.register("sw.js").catch((error) => {
+    console.warn("Service Worker registration failed", error);
+  });
 }
 
 function scheduleSplashHide() {
