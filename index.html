@@ -6,11 +6,13 @@
   <title>Mein Test – Prüfungstrainer Einbürgerungstest</title>
   <meta name="theme-color" content="#1457d1">
   <meta name="application-name" content="Mein Test">
-  <link rel="icon" type="image/png" sizes="192x192" href="cover-image.png">
+  <link rel="icon" href="icons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/icon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/UnifrakturMaguntia-Book.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -66,7 +68,11 @@
   </main>
 
   <footer class="app-footer">
-    <p>Tipp: Öffne die Seite über einen lokalen Webserver (z.&nbsp;B. <code>python -m http.server</code>), damit das Laden der Daten funktioniert.</p>
+    <p>
+      <a href="https://github.com/gekkedev/mein-test" target="_blank" rel="noopener">Projekt auf GitHub</a> ·
+      Schriftart UnifrakturMaguntia von J. Victor Gammel unter der
+      <a href="assets/fonts/OFL.txt" target="_blank" rel="license noopener">SIL Open Font License&nbsp;1.1</a>
+    </p>
   </footer>
 
   <script type="module" src="app.js"></script>

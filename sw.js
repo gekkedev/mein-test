@@ -1,4 +1,4 @@
-const CACHE_VERSION = "v1";
+const CACHE_VERSION = "v3";
 const CACHE_NAME = `mein-test-${CACHE_VERSION}`;
 const CORE_ASSETS = [
   "index.html",
@@ -6,6 +6,16 @@ const CORE_ASSETS = [
   "app.js",
   "cover-image.png",
   "manifest.webmanifest",
+  "icons/favicon.ico",
+  "icons/icon-16.png",
+  "icons/icon-32.png",
+  "icons/icon-180.png",
+  "icons/icon-192.png",
+  "icons/icon-192-maskable.png",
+  "icons/icon-512.png",
+  "icons/icon-512-maskable.png",
+  "assets/fonts/UnifrakturMaguntia-Book.ttf",
+  "assets/fonts/OFL.txt",
 ];
 
 self.addEventListener("install", (event) => {

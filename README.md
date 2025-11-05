@@ -30,3 +30,8 @@ Open `http://localhost:8000/` (or the published build at [https://gekkedev.githu
 3. Use the browser’s install control ("Install app" in Chrome/Edge, "Add to Home Screen" on mobile Safari).
 
 After installation you can launch the trainer from your desktop or home screen and it will run fully offline. When you refresh the page while online, the service worker re-validates `data/questions.json` and updates the offline cache automatically. If you change the code or asset list significantly, bump `CACHE_VERSION` in `sw.js` to force clients to pick up the new bundle.
+
+## Credits & Licenses
+
+- Iconography uses the bundled UnifrakturMaguntia typeface by J. Victor Gammel, licensed under the [SIL Open Font License 1.1](assets/fonts/OFL.txt).
+- Development tooling relies on [Pillow](https://python-pillow.org) (Historical Permission Notice and Disclaimer license) for icon rendering and [PyMuPDF](https://pymupdf.readthedocs.io/) (GNU Affero General Public License v3) for parsing the official question catalog PDF.

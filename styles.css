@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "UnifrakturMaguntia";
+  src: url("assets/fonts/UnifrakturMaguntia-Book.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   color-scheme: light dark;
   font-family: "Segoe UI", Roboto, sans-serif;
