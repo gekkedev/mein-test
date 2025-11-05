@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "gesamtfragenkatalog-lebenindeutschland.pdf",
-    "generated_at": "2025-11-04T23:22:33.557846+00:00",
+    "generated_at": "2025-11-05T11:55:20.598242+00:00",
     "question_count": 460
   },
   "questions": [
@@ -437,8 +437,7 @@
       "pages": [
         6
       ],
-      "images": [],
-      "correct_answer_index": 1
+      "images": []
     },
     {
       "id": 16,
@@ -1700,13 +1699,26 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Vor wie vielen Jahren gab es erstmals eine jüdische Gemeinde auf dem Gebiet des heutigen Deutschlands? □ vor etwa 300 Jahren □ vor etwa 700 Jahren □ vor etwa 1150 Jahren □ vor etwa 1700 Jahren",
-      "answers": [],
+      "question": "Vor wie vielen Jahren gab es erstmals eine jüdische Gemeinde auf dem Gebiet des heutigen Deutschlands?",
+      "answers": [
+        {
+          "text": "vor etwa 300 Jahren"
+        },
+        {
+          "text": "vor etwa 700 Jahren"
+        },
+        {
+          "text": "vor etwa 1150 Jahren"
+        },
+        {
+          "text": "vor etwa 1700 Jahren"
+        }
+      ],
       "pages": [
         22
       ],
       "images": [],
-      "correct_answer_index": 1
+      "correct_answer_index": 3
     },
     {
       "id": 60,
@@ -1890,13 +1902,26 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Welche Städte haben die größten jüdischen Gemeinden in Deutschland? □ Berlin und München □ Hamburg und Essen □ Nürnberg und Stuttgart □ Worms und Speyer",
-      "answers": [],
+      "question": "Welche Städte haben die größten jüdischen Gemeinden in Deutschland?",
+      "answers": [
+        {
+          "text": "Berlin und München"
+        },
+        {
+          "text": "Hamburg und Essen"
+        },
+        {
+          "text": "Nürnberg und Stuttgart"
+        },
+        {
+          "text": "Worms und Speyer"
+        }
+      ],
       "pages": [
         25
       ],
       "images": [],
-      "correct_answer_index": 3
+      "correct_answer_index": 0
     },
     {
       "id": 67,
@@ -2748,13 +2773,25 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Wie kann jemand, der den Holocaust leugnet, bestraft werden? □ Kürzung sozialer Leistungen □ bis zu 100 Sozialstunden □ gar nicht, Holocaustleugnung ist erlaubt □ mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe",
-      "answers": [],
+      "question": "Wie kann jemand, der den Holocaust leugnet, bestraft werden?",
+      "answers": [
+        {
+          "text": "Kürzung sozialer Leistungen"
+        },
+        {
+          "text": "bis zu 100 Sozialstunden"
+        },
+        {
+          "text": "gar nicht, Holocaustleugnung ist erlaubt"
+        },
+        {
+          "text": "mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe"
+        }
+      ],
       "pages": [
         36
       ],
-      "images": [],
-      "correct_answer_index": 1
+      "images": []
     },
     {
       "id": 97,
@@ -3170,13 +3207,25 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Welche Handlungen mit Bezug auf den Staat Israel sind in Deutschland verboten? □ die Politik Israels öffentlich kritisieren □ das Aufhängen einer israelischen Flagge auf dem Privatgrundstück □ eine Diskussion über die Politik Israels □ der öffentliche Aufruf zur Vernichtung Israels",
-      "answers": [],
+      "question": "Welche Handlungen mit Bezug auf den Staat Israel sind in Deutschland verboten?",
+      "answers": [
+        {
+          "text": "die Politik Israels öffentlich kritisieren"
+        },
+        {
+          "text": "das Aufhängen einer israelischen Flagge auf dem Privatgrundstück"
+        },
+        {
+          "text": "eine Diskussion über die Politik Israels"
+        },
+        {
+          "text": "der öffentliche Aufruf zur Vernichtung Israels"
+        }
+      ],
       "pages": [
         41
       ],
-      "images": [],
-      "correct_answer_index": 0
+      "images": []
     },
     {
       "id": 112,
@@ -3360,13 +3409,25 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden? □ nur Deutsche □ nur Israelis □ nur religiöse Menschen □ alle Menschen",
-      "answers": [],
+      "question": "Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?",
+      "answers": [
+        {
+          "text": "nur Deutsche"
+        },
+        {
+          "text": "nur Israelis"
+        },
+        {
+          "text": "nur religiöse Menschen"
+        },
+        {
+          "text": "alle Menschen"
+        }
+      ],
       "pages": [
         43
       ],
-      "images": [],
-      "correct_answer_index": 3
+      "images": []
     },
     {
       "id": 119,
@@ -4247,13 +4308,25 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Was ist ein Beispiel für antisemitisches Verhalten? □ ein jüdisches Fest besuchen □ die israelische Regierung kritisieren □ den Holocaust leugnen □ gegen Juden Fußball spielen.",
-      "answers": [],
+      "question": "Was ist ein Beispiel für antisemitisches Verhalten?",
+      "answers": [
+        {
+          "text": "ein jüdisches Fest besuchen"
+        },
+        {
+          "text": "die israelische Regierung kritisieren"
+        },
+        {
+          "text": "den Holocaust leugnen"
+        },
+        {
+          "text": "gegen Juden Fußball spielen."
+        }
+      ],
       "pages": [
         55
       ],
-      "images": [],
-      "correct_answer_index": 1
+      "images": []
     },
     {
       "id": 150,
@@ -5193,13 +5266,26 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Wie heißt das jüdische Gebetshaus? □ Basilika □ Moschee □ Synagoge □ Kirche",
-      "answers": [],
+      "question": "Wie heißt das jüdische Gebetshaus?",
+      "answers": [
+        {
+          "text": "Basilika"
+        },
+        {
+          "text": "Moschee"
+        },
+        {
+          "text": "Synagoge"
+        },
+        {
+          "text": "Kirche"
+        }
+      ],
       "pages": [
         68
       ],
       "images": [],
-      "correct_answer_index": 0
+      "correct_answer_index": 2
     },
     {
       "id": 183,
@@ -5238,13 +5324,25 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "184. Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet? □ eine Resolution der Vereinten Nationen □ ein Beschluss des Zionistenkongresses □ ein Vorschlag der Bundesregierung □ ein Vorschlag der UdSSR",
-      "answers": [],
+      "question": "184. Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?",
+      "answers": [
+        {
+          "text": "eine Resolution der Vereinten Nationen"
+        },
+        {
+          "text": "ein Beschluss des Zionistenkongresses"
+        },
+        {
+          "text": "ein Vorschlag der Bundesregierung"
+        },
+        {
+          "text": "ein Vorschlag der UdSSR"
+        }
+      ],
       "pages": [
         68
       ],
-      "images": [],
-      "correct_answer_index": 2
+      "images": []
     },
     {
       "id": 185,
@@ -5864,13 +5962,25 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "206. Woran erinnern die sogenannten „Stolpersteine“ in Deutschland? □ an berühmte deutsche Politikerinnen und Politiker □ an die Opfer des Nationalsozialismus □ an Verkehrstote □ an bekannte jüdische Musiker",
-      "answers": [],
+      "question": "206. Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
+      "answers": [
+        {
+          "text": "an berühmte deutsche Politikerinnen und Politiker"
+        },
+        {
+          "text": "an die Opfer des Nationalsozialismus"
+        },
+        {
+          "text": "an Verkehrstote"
+        },
+        {
+          "text": "an bekannte jüdische Musiker"
+        }
+      ],
       "pages": [
         76
       ],
-      "images": [],
-      "correct_answer_index": 1
+      "images": []
     },
     {
       "id": 207,
@@ -7079,7 +7189,7 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Die Erziehung der Kinder ist in Deutschland ist vor allem Aufgabe …",
+      "question": "Die Erziehung der Kinder ist in Deutschland vor allem Aufgabe …",
       "answers": [
         {
           "text": "des Staates."
@@ -8239,13 +8349,25 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Woraus begründet sich Deutschlands besondere Verantwortung für Israel? □ aus der Mitgliedschaft in der Europäischen Union (EU) □ aus den nationalsozialistischen Verbrechen gegen Juden □ aus dem Grundgesetz der Bundesrepublik Deutschland □ aus der christlichen Tradition",
-      "answers": [],
+      "question": "Woraus begründet sich Deutschlands besondere Verantwortung für Israel?",
+      "answers": [
+        {
+          "text": "aus der Mitgliedschaft in der Europäischen Union (EU)"
+        },
+        {
+          "text": "aus den nationalsozialistischen Verbrechen gegen Juden"
+        },
+        {
+          "text": "aus dem Grundgesetz der Bundesrepublik Deutschland"
+        },
+        {
+          "text": "aus der christlichen Tradition"
+        }
+      ],
       "pages": [
         106
       ],
-      "images": [],
-      "correct_answer_index": 2
+      "images": []
     },
     {
       "id": 289,
@@ -8563,8 +8685,7 @@
       "pages": [
         111
       ],
-      "images": [],
-      "correct_answer_index": 1
+      "images": []
     },
     {
       "id": 300,

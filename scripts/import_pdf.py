@@ -9,7 +9,16 @@ from typing import Dict, List, Optional
 import fitz  # PyMuPDF
 
 
-BULLET_CHAR = "\uf0a3"
+BULLET_CHARS: tuple = (
+    "\uf0a3",  # original dingbat
+    "□",        # white square
+    "◻",
+    "▢",
+    "☐",
+    "▪",
+    "■",
+    "•",
+)
 PAGE_LABEL_PREFIX = "Seite "
 
 
@@ -17,6 +26,35 @@ def build_line_text(span: dict) -> str:
     if "text" in span and span["text"]:
         return span["text"]
     return "".join(char.get("c", "") for char in span.get("chars", []))
+
+
+def split_inline_options(text: str) -> List[str]:
+    stripped = text.strip()
+    if not stripped:
+        return []
+
+    for bullet in BULLET_CHARS:
+        if bullet in stripped and not stripped.startswith(bullet):
+            parts = stripped.split(bullet)
+            segments: List[str] = []
+            head = parts.pop(0).strip()
+            if head:
+                segments.append(head)
+            for option in parts:
+                option_text = option.strip()
+                if option_text:
+                    segments.append(f"{bullet}{option_text}")
+            if segments:
+                return segments
+
+    return [stripped]
+
+
+def starts_with_bullet(text: str) -> Optional[str]:
+    for bullet in BULLET_CHARS:
+        if text.startswith(bullet):
+            return bullet
+    return None
 
 
 def load_document_lines(pdf_path: Path) -> Dict[str, list]:
@@ -93,73 +131,85 @@ def parse_questions(lines: List[dict]):
     current_section = {"part": None, "topic": None}
 
     for entry in lines:
-        text = entry["text"].strip()
+        raw_text = entry["text"].strip()
 
-        if text.startswith(PAGE_LABEL_PREFIX):
+        if not raw_text:
             continue
 
-        if text.startswith("Teil "):
-            current_section["part"] = text
+        segments = split_inline_options(raw_text)
+
+        if not segments:
             continue
 
-        if text.startswith("Allgemeine Fragen") or text.startswith("Bundesland"):
-            current_section["topic"] = text
-            continue
+        for segment in segments:
+            text = segment
 
-        if text.startswith("Test") or text.startswith("Aufbau"):
-            # ignore document meta sections
-            continue
+            if text.startswith(PAGE_LABEL_PREFIX):
+                continue
 
-        if text.startswith("Hinweis"):
-            continue
+            if text.startswith("Teil "):
+                current_section["part"] = text
+                continue
 
-        if text.startswith("Aufgabe "):
-            if current_question:
-                finalize_question(current_question, questions)
+            if text.startswith("Allgemeine Fragen") or text.startswith("Bundesland"):
+                current_section["topic"] = text
+                continue
 
-            number_part = text.replace("Aufgabe", "").strip()
-            try:
-                question_number = int(number_part)
-            except ValueError:
-                question_number = None
+            if text.startswith("Test") or text.startswith("Aufbau"):
+                # ignore document meta sections
+                continue
 
-            current_question = {
-                "display_number": text,
-                "question_number": question_number,
-                "section": {
-                    "part": current_section["part"],
-                    "topic": current_section["topic"],
-                },
-                "question_lines": [],
-                "answers": [],
-                "bounds": {},
-                "pages": set(),
-            }
+            if text.startswith("Hinweis"):
+                continue
+
+            if text.startswith("Aufgabe "):
+                if current_question:
+                    finalize_question(current_question, questions)
+
+                number_part = text.replace("Aufgabe", "").strip()
+                try:
+                    question_number = int(number_part)
+                except ValueError:
+                    question_number = None
+
+                current_question = {
+                    "display_number": text,
+                    "question_number": question_number,
+                    "section": {
+                        "part": current_section["part"],
+                        "topic": current_section["topic"],
+                    },
+                    "question_lines": [],
+                    "answers": [],
+                    "bounds": {},
+                    "pages": set(),
+                }
+                update_bounds(current_question["bounds"], entry["page"], entry["bbox"])
+                current_question["pages"].add(entry["page"])
+                current_question["state"] = "collect_question"
+                continue
+
+            if not current_question:
+                continue
+
+            bullet = starts_with_bullet(text)
+            if bullet:
+                option_text = text[len(bullet):].strip()
+                current_question["answers"].append({"text": option_text})
+                update_bounds(current_question["bounds"], entry["page"], entry["bbox"])
+                current_question["pages"].add(entry["page"])
+                current_question["state"] = "collect_answers"
+                continue
+
+            if current_question["state"] == "collect_answers" and current_question["answers"]:
+                current_question["answers"][-1]["text"] += " " + text
+                update_bounds(current_question["bounds"], entry["page"], entry["bbox"])
+                current_question["pages"].add(entry["page"])
+                continue
+
+            current_question["question_lines"].append(text)
             update_bounds(current_question["bounds"], entry["page"], entry["bbox"])
             current_question["pages"].add(entry["page"])
-            current_question["state"] = "collect_question"
-            continue
-
-        if not current_question:
-            continue
-
-        if text.startswith(BULLET_CHAR):
-            option_text = text.lstrip(BULLET_CHAR).strip()
-            current_question["answers"].append({"text": option_text})
-            update_bounds(current_question["bounds"], entry["page"], entry["bbox"])
-            current_question["pages"].add(entry["page"])
-            current_question["state"] = "collect_answers"
-            continue
-
-        if current_question["state"] == "collect_answers" and current_question["answers"]:
-            current_question["answers"][-1]["text"] += " " + text
-            update_bounds(current_question["bounds"], entry["page"], entry["bbox"])
-            current_question["pages"].add(entry["page"])
-            continue
-
-        current_question["question_lines"].append(text)
-        update_bounds(current_question["bounds"], entry["page"], entry["bbox"])
-        current_question["pages"].add(entry["page"])
 
     if current_question:
         finalize_question(current_question, questions)
@@ -213,6 +263,25 @@ def assign_images(questions: List[dict], images_by_page: Dict[int, List[dict]]) 
                     image_claims[page].add(image_id)
 
 
+def normalize_answer_text(raw: Optional[str]) -> str:
+    if not raw:
+        return ""
+    return " ".join(raw.split())
+
+
+def question_signature(entry: dict) -> Optional[tuple]:
+    question_text = normalize_answer_text(entry.get("question"))
+    answers = [normalize_answer_text(opt.get("text")) for opt in entry.get("answers", [])]
+
+    if not question_text or not answers:
+        return None
+
+    if any(not answer for answer in answers):
+        return None
+
+    return question_text, tuple(answers)
+
+
 def apply_existing_correct_answers(questions: List[dict], output_json_path: Path) -> None:
     if not output_json_path.exists():
         return
@@ -223,21 +292,52 @@ def apply_existing_correct_answers(questions: List[dict], output_json_path: Path
     except (json.JSONDecodeError, OSError):
         return
 
-    stored_answers: Dict[int, int] = {}
+    stored_answers: Dict[tuple, dict] = {}
 
     for entry in existing_payload.get("questions", []):
-        key = entry.get("question_number") or entry.get("id")
         idx = entry.get("correct_answer_index")
-        if isinstance(key, int) and isinstance(idx, int):
-            stored_answers[key] = idx
+        if not isinstance(idx, int):
+            continue
+
+        signature = question_signature(entry)
+
+        if not signature:
+            continue
+
+        stored_answers[signature] = {
+            "index": idx,
+            "question_number": entry.get("question_number"),
+        }
 
     if not stored_answers:
         return
 
+    reused = 0
+    skipped = 0
+
     for question in questions:
-        key = question.get("question_number") or question["id"]
-        if isinstance(key, int) and key in stored_answers:
-            question["correct_answer_index"] = stored_answers[key]
+        signature = question_signature(question)
+        if not signature:
+            continue
+
+        stored = stored_answers.get(signature)
+        if not stored:
+            continue
+
+        answers_len = len(signature[1])
+
+        if 0 <= stored["index"] < answers_len:
+            question["correct_answer_index"] = stored["index"]
+            reused += 1
+        else:
+            skipped += 1
+
+    if skipped and reused:
+        print(f"Skipped {skipped} stored answer(s) that no longer match question text; reused {reused}.")
+    elif skipped:
+        print(f"Skipped {skipped} stored answer(s) that no longer match question text.")
+    elif reused:
+        print(f"Reused {reused} stored answer(s) from existing dataset.")
 
 
 def persist_output(
