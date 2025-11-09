@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "gesamtfragenkatalog-lebenindeutschland.pdf",
-    "generated_at": "2025-11-05T11:55:20.598242+00:00",
+    "generated_at": "2025-11-09T14:55:07.255141+00:00",
     "question_count": 460
   },
   "questions": [
@@ -361,8 +361,11 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Im Parlament steht der Begriff \"Opposition\" für … die regierenden Parteien.",
+      "question": "Im Parlament steht der Begriff \"Opposition\" für …",
       "answers": [
+        {
+          "text": "die regierenden Parteien."
+        },
         {
           "text": "die Fraktion mit den meisten Abgeordneten."
         },
@@ -370,10 +373,7 @@
           "text": "alle Parteien, die bei der letzten Wahl die 5%-Hürde erreichen konnten."
         },
         {
-          "text": "alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien"
-        },
-        {
-          "text": "gehören."
+          "text": "alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien gehören."
         }
       ],
       "pages": [
@@ -390,8 +390,11 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Meinungsfreiheit in Deutschland heißt, dass ich … Passanten auf der Straße beschimpfen darf.",
+      "question": "Meinungsfreiheit in Deutschland heißt, dass ich …",
       "answers": [
+        {
+          "text": "Passanten auf der Straße beschimpfen darf."
+        },
         {
           "text": "meine Meinung im Internet äußern kann."
         },
@@ -399,10 +402,7 @@
           "text": "Nazi-, Hamas- oder Islamischer Staat-Symbole öffentlich tragen darf."
         },
         {
-          "text": "meine Meinung nur dann äußern darf, solange ich der Regierung nicht"
-        },
-        {
-          "text": "widerspreche."
+          "text": "meine Meinung nur dann äußern darf, solange ich der Regierung nicht widerspreche."
         }
       ],
       "pages": [
@@ -419,8 +419,11 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Was verbietet das deutsche Grundgesetz? Militärdienst",
+      "question": "Was verbietet das deutsche Grundgesetz?",
       "answers": [
+        {
+          "text": "Militärdienst"
+        },
         {
           "text": "Zwangsarbeit"
         },
@@ -429,9 +432,6 @@
         },
         {
           "text": "Arbeit im Ausland"
-        },
-        {
-          "text": ""
         }
       ],
       "pages": [
@@ -1582,7 +1582,7 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Was zeigt dieses Bild? © Deutscher Bundestag/Achim Melde",
+      "question": "Was zeigt dieses Bild?",
       "answers": [
         {
           "text": "den Bundestagssitz in Berlin"
@@ -2018,7 +2018,7 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die Ernennungsurkunde zum deutschen Bundeskanzler. Was gehört zu den Aufgaben der deutschen Bundespräsidentin/des deutschen Bundespräsidenten? © Bundesregierung/Engelbert Reineke",
+      "question": "Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die Ernennungsurkunde zum deutschen Bundeskanzler. Was gehört zu den Aufgaben der deutschen Bundespräsidentin/des deutschen Bundespräsidenten?",
       "answers": [
         {
           "text": "Sie/Er führt die Regierungsgeschäfte."
@@ -5236,7 +5236,7 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Was wollte Willy Brandt mit seinem Kniefall 1970 im ehemaligen jüdischen Ghetto in Warschau ausdrücken? © Bundesregierung/Engelbert Reineke",
+      "question": "Was wollte Willy Brandt mit seinem Kniefall 1970 im ehemaligen jüdischen Ghetto in Warschau ausdrücken?",
       "answers": [
         {
           "text": "Er hat sich den ehemaligen Alliierten unterworfen."
@@ -6255,7 +6255,7 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Welches Symbol ist im Plenarsaal des Deutschen Bundestages zu sehen? © Deutscher Bundestag/Janine Schmitz",
+      "question": "Welches Symbol ist im Plenarsaal des Deutschen Bundestages zu sehen?",
       "answers": [
         {
           "text": "der Bundesadler"
@@ -6811,7 +6811,7 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Der damalige französische Staatspräsident François Mitterrand und der damalige deutsche Bundeskanzler Helmut Kohl gedenken in Verdun gemeinsam der Toten beider Weltkriege. Welches Ziel der Europäischen Union wird bei diesem Treffen deutlich? © Bundesregierung/Richard Schulze-Vorberg",
+      "question": "Der damalige französische Staatspräsident François Mitterrand und der damalige deutsche Bundeskanzler Helmut Kohl gedenken in Verdun gemeinsam der Toten beider Weltkriege. Welches Ziel der Europäischen Union wird bei diesem Treffen deutlich?",
       "answers": [
         {
           "text": "Freundschaft zwischen England und Deutschland"
@@ -8667,8 +8667,11 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Ausländische Arbeitnehmerinnen und Arbeitnehmer, die in den 50er und 60er Jahren von der Bundesrepublik Deutschland angeworben wurden, nannte man … Schwarzarbeiterinnen/Schwarzarbeiter.",
+      "question": "Ausländische Arbeitnehmerinnen und Arbeitnehmer, die in den 50er und 60er Jahren von der Bundesrepublik Deutschland angeworben wurden, nannte man …",
       "answers": [
+        {
+          "text": "Schwarzarbeiterinnen/Schwarzarbeiter."
+        },
         {
           "text": "Gastarbeiterinnen/Gastarbeiter."
         },
@@ -8677,9 +8680,6 @@
         },
         {
           "text": "Schichtarbeiterinnen/Schichtarbeiter."
-        },
-        {
-          "text": ""
         }
       ],
       "pages": [
@@ -8695,8 +8695,11 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "Aus welchem Land kamen die ersten Gastarbeiterinnen und Gastarbeiter in die Bundesrepublik Deutschland? Italien",
+      "question": "Aus welchem Land kamen die ersten Gastarbeiterinnen und Gastarbeiter in die Bundesrepublik Deutschland?",
       "answers": [
+        {
+          "text": "Italien"
+        },
         {
           "text": "Spanien"
         },
@@ -8705,14 +8708,10 @@
         },
         {
           "text": "Türkei"
-        },
-        {
-          "text": "Fragen für das Bundesland Baden-Württemberg"
         }
       ],
       "pages": [
-        111,
-        112
+        111
       ],
       "images": [],
       "correct_answer_index": 0
@@ -8723,7 +8722,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Baden-Württemberg"
       },
       "question": "Welches Wappen gehört zum Bundesland Baden-Württemberg?",
       "answers": [
@@ -8756,7 +8755,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Baden-Württemberg"
       },
       "question": "Welches ist ein Landkreis in Baden-Württemberg?",
       "answers": [
@@ -8785,7 +8784,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Baden-Württemberg"
       },
       "question": "Für wie viele Jahre wird der Landtag in Baden-Württemberg gewählt?",
       "answers": [
@@ -8814,7 +8813,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Baden-Württemberg"
       },
       "question": "Ab welchem Alter darf man in Baden-Württemberg bei Kommunalwahlen wählen?",
       "answers": [
@@ -8843,7 +8842,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Baden-Württemberg"
       },
       "question": "Welche Farben hat die Landesflagge von Baden-Württemberg?",
       "answers": [
@@ -8872,7 +8871,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Baden-Württemberg"
       },
       "question": "Wo können Sie sich in Baden-Württemberg über politische Themen informieren?",
       "answers": [
@@ -8901,7 +8900,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Baden-Württemberg"
       },
       "question": "Die Landeshauptstadt von Baden-Württemberg heißt …",
       "answers": [
@@ -8930,7 +8929,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Baden-Württemberg"
       },
       "question": "Welches Bundesland ist Baden-Württemberg?",
       "answers": [
@@ -8960,7 +8959,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Baden-Württemberg"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef in Baden-Württemberg?",
       "answers": [
@@ -8989,7 +8988,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Baden-Württemberg"
       },
       "question": "Welche Ministerin/welchen Minister hat Baden-Württemberg nicht?",
       "answers": [
@@ -9003,12 +9002,11 @@
           "text": "Innenministerin/Innenminister"
         },
         {
-          "text": "Außenministerin/Außenminister Fragen für das Bundesland Bayern"
+          "text": "Außenministerin/Außenminister"
         }
       ],
       "pages": [
-        116,
-        117
+        116
       ],
       "images": [],
       "correct_answer_index": 3
@@ -9019,9 +9017,9 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bayern"
       },
-      "question": "Welches Wappen gehört zum Freistaat Bayern? Bild 1 Bild 2 Bild 3 Bild 4",
+      "question": "Welches Wappen gehört zum Freistaat Bayern?",
       "answers": [
         {
           "text": "Bild 1"
@@ -9030,10 +9028,10 @@
           "text": "Bild 2"
         },
         {
-          "text": "Bild 3 Bild 4"
+          "text": "Bild 3"
         },
         {
-          "text": ""
+          "text": "Bild 4"
         }
       ],
       "pages": [
@@ -9052,7 +9050,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bayern"
       },
       "question": "Welches ist ein Landkreis in Bayern?",
       "answers": [
@@ -9081,7 +9079,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bayern"
       },
       "question": "Für wie viele Jahre wird der Landtag in Bayern gewählt?",
       "answers": [
@@ -9110,7 +9108,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bayern"
       },
       "question": "Ab welchem Alter darf man in Bayern bei Kommunalwahlen wählen?",
       "answers": [
@@ -9139,7 +9137,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bayern"
       },
       "question": "Welche Farben hat die Landesflagge von Bayern?",
       "answers": [
@@ -9168,7 +9166,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bayern"
       },
       "question": "Wo können Sie sich in Bayern über politische Themen informieren?",
       "answers": [
@@ -9197,7 +9195,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bayern"
       },
       "question": "Die Landeshauptstadt von Bayern heißt …",
       "answers": [
@@ -9226,7 +9224,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bayern"
       },
       "question": "Welches Bundesland ist Bayern?",
       "answers": [
@@ -9256,7 +9254,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bayern"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef in Bayern?",
       "answers": [
@@ -9285,7 +9283,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bayern"
       },
       "question": "Welche Ministerin/welchen Minister hat Bayern nicht?",
       "answers": [
@@ -9299,12 +9297,11 @@
           "text": "Finanzministerin/Finanzminister"
         },
         {
-          "text": "Innenministerin/Innenminister Fragen für das Bundesland Berlin"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "pages": [
-        121,
-        122
+        121
       ],
       "images": [],
       "correct_answer_index": 1
@@ -9315,7 +9312,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Berlin"
       },
       "question": "Welches Wappen gehört zum Bundesland Berlin?",
       "answers": [
@@ -9348,7 +9345,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Berlin"
       },
       "question": "Welches ist ein Bezirk von Berlin?",
       "answers": [
@@ -9377,7 +9374,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Berlin"
       },
       "question": "Für wie viele Jahre wird das Landesparlament in Berlin gewählt?",
       "answers": [
@@ -9406,7 +9403,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Berlin"
       },
       "question": "Ab welchem Alter darf man in Berlin bei Kommunalwahlen (Wahl der Bezirksverordnetenversammlung) wählen?",
       "answers": [
@@ -9435,7 +9432,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Berlin"
       },
       "question": "Welche Farben hat die Landesflagge von Berlin?",
       "answers": [
@@ -9464,7 +9461,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Berlin"
       },
       "question": "Wo können Sie sich in Berlin über politische Themen informieren?",
       "answers": [
@@ -9493,7 +9490,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Berlin"
       },
       "question": "Welches Bundesland ist ein Stadtstaat?",
       "answers": [
@@ -9522,7 +9519,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Berlin"
       },
       "question": "Welches Bundesland ist Berlin?",
       "answers": [
@@ -9530,10 +9527,10 @@
           "text": "1"
         },
         {
-          "text": "2 3"
+          "text": "2"
         },
         {
-          "text": ""
+          "text": "3"
         },
         {
           "text": "4"
@@ -9544,7 +9541,8 @@
       ],
       "images": [
         "images/question_0328_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 3
     },
     {
       "id": 329,
@@ -9552,7 +9550,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Berlin"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef des Stadtstaates Berlin?",
       "answers": [
@@ -9581,7 +9579,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Berlin"
       },
       "question": "Welche Senatorin/welchen Senator hat Berlin nicht?",
       "answers": [
@@ -9595,12 +9593,11 @@
           "text": "Senatorin/Senator für Außenbeziehungen"
         },
         {
-          "text": "Justizsenatorin/Justizsenator Fragen für das Bundesland Brandenburg"
+          "text": "Justizsenatorin/Justizsenator"
         }
       ],
       "pages": [
-        126,
-        127
+        126
       ],
       "images": [],
       "correct_answer_index": 2
@@ -9611,7 +9608,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Brandenburg"
       },
       "question": "Welches Wappen gehört zum Bundesland Brandenburg?",
       "answers": [
@@ -9644,7 +9641,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Brandenburg"
       },
       "question": "Welches ist ein Landkreis in Brandenburg?",
       "answers": [
@@ -9673,7 +9670,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Brandenburg"
       },
       "question": "Für wie viele Jahre wird der Landtag in Brandenburg gewählt?",
       "answers": [
@@ -9702,7 +9699,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Brandenburg"
       },
       "question": "Ab welchem Alter darf man in Brandenburg bei Kommunalwahlen wählen?",
       "answers": [
@@ -9731,7 +9728,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Brandenburg"
       },
       "question": "Welche Farben hat die Landesflagge von Brandenburg?",
       "answers": [
@@ -9760,7 +9757,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Brandenburg"
       },
       "question": "Wo können Sie sich in Brandenburg über politische Themen informieren?",
       "answers": [
@@ -9789,7 +9786,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Brandenburg"
       },
       "question": "Die Landeshauptstadt von Brandenburg heißt …",
       "answers": [
@@ -9818,7 +9815,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Brandenburg"
       },
       "question": "Welches Bundesland ist Brandenburg?",
       "answers": [
@@ -9848,7 +9845,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Brandenburg"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef in Brandenburg?",
       "answers": [
@@ -9877,7 +9874,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Brandenburg"
       },
       "question": "Welche Ministerin/welchen Minister hat Brandenburg nicht?",
       "answers": [
@@ -9891,12 +9888,11 @@
           "text": "Finanzministerin/Finanzminister"
         },
         {
-          "text": "Innenministerin/Innenminister Fragen für das Bundesland Bremen"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "pages": [
-        131,
-        132
+        131
       ],
       "images": [],
       "correct_answer_index": 1
@@ -9907,7 +9903,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bremen"
       },
       "question": "Welches Wappen gehört zur Freien Hansestadt Bremen?",
       "answers": [
@@ -9940,7 +9936,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bremen"
       },
       "question": "Welches ist ein Stadtteil von Bremen?",
       "answers": [
@@ -9969,7 +9965,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bremen"
       },
       "question": "Für wie viele Jahre wird das Landesparlament in Bremen gewählt?",
       "answers": [
@@ -9998,7 +9994,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bremen"
       },
       "question": "Ab welchem Alter darf man in Bremen bei den Wahlen zur Bürgerschaft (Landtag) wählen?",
       "answers": [
@@ -10027,7 +10023,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bremen"
       },
       "question": "Welche Farben hat die Landesflagge von Bremen?",
       "answers": [
@@ -10056,7 +10052,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bremen"
       },
       "question": "Wo können Sie sich in Bremen über politische Themen informieren?",
       "answers": [
@@ -10085,7 +10081,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bremen"
       },
       "question": "Was ist ein deutscher Stadtstaat?",
       "answers": [
@@ -10114,7 +10110,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bremen"
       },
       "question": "Welches Bundesland ist Bremen?",
       "answers": [
@@ -10144,7 +10140,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bremen"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef des Stadtstaates Bremen?",
       "answers": [
@@ -10173,7 +10169,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Bremen"
       },
       "question": "Welche Senatorin/welchen Senator hat Bremen nicht?",
       "answers": [
@@ -10187,12 +10183,11 @@
           "text": "Justizsenatorin/Justizsenator"
         },
         {
-          "text": "Innensenatorin/Innensenator Fragen für das Bundesland Hamburg"
+          "text": "Innensenatorin/Innensenator"
         }
       ],
       "pages": [
-        136,
-        137
+        136
       ],
       "images": [],
       "correct_answer_index": 0
@@ -10203,7 +10198,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hamburg"
       },
       "question": "Welches Wappen gehört zur Freien und Hansestadt Hamburg?",
       "answers": [
@@ -10211,10 +10206,10 @@
           "text": "Bild 1"
         },
         {
-          "text": "Bild 2 Bild 3"
+          "text": "Bild 2"
         },
         {
-          "text": ""
+          "text": "Bild 3"
         },
         {
           "text": "Bild 4"
@@ -10236,7 +10231,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hamburg"
       },
       "question": "Welches ist ein Bezirk von Hamburg?",
       "answers": [
@@ -10265,7 +10260,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hamburg"
       },
       "question": "Für wie viele Jahre wird das Landesparlament in Hamburg gewählt?",
       "answers": [
@@ -10294,7 +10289,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hamburg"
       },
       "question": "Ab welchem Alter darf man in Hamburg bei Kommunalwahlen (Wahl der Bezirksversammlungen) wählen?",
       "answers": [
@@ -10323,7 +10318,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hamburg"
       },
       "question": "Welche Farben hat die Landesflagge von Hamburg?",
       "answers": [
@@ -10352,7 +10347,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hamburg"
       },
       "question": "Wo können Sie sich in Hamburg über politische Themen informieren?",
       "answers": [
@@ -10381,7 +10376,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hamburg"
       },
       "question": "Welches Bundesland ist ein Stadtstaat?",
       "answers": [
@@ -10410,7 +10405,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hamburg"
       },
       "question": "Welches Bundesland ist Hamburg?",
       "answers": [
@@ -10440,7 +10435,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hamburg"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef des Stadtstaates Hamburg?",
       "answers": [
@@ -10469,7 +10464,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hamburg"
       },
       "question": "Welche Senatorin/welchen Senator hat Hamburg nicht?",
       "answers": [
@@ -10483,12 +10478,11 @@
           "text": "Finanzsenatorin/Finanzsenator"
         },
         {
-          "text": "Innensenatorin/Innensenator Fragen für das Bundesland Hessen"
+          "text": "Innensenatorin/Innensenator"
         }
       ],
       "pages": [
-        141,
-        142
+        141
       ],
       "images": [],
       "correct_answer_index": 1
@@ -10499,15 +10493,15 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hessen"
       },
       "question": "Welches Wappen gehört zum Bundesland Hessen?",
       "answers": [
         {
-          "text": "Bild 1 Bild 2"
+          "text": "Bild 1"
         },
         {
-          "text": ""
+          "text": "Bild 2"
         },
         {
           "text": "Bild 3"
@@ -10524,7 +10518,8 @@
         "images/question_0361_2.png",
         "images/question_0361_3.png",
         "images/question_0361_4.jpeg"
-      ]
+      ],
+      "correct_answer_index": 0
     },
     {
       "id": 362,
@@ -10532,7 +10527,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hessen"
       },
       "question": "Welches ist ein Landkreis in Hessen?",
       "answers": [
@@ -10561,7 +10556,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hessen"
       },
       "question": "Für wie viele Jahre wird der Landtag in Hessen gewählt?",
       "answers": [
@@ -10590,7 +10585,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hessen"
       },
       "question": "Ab welchem Alter darf man in Hessen bei Kommunalwahlen wählen?",
       "answers": [
@@ -10619,7 +10614,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hessen"
       },
       "question": "Welche Farben hat die Landesflagge von Hessen?",
       "answers": [
@@ -10648,7 +10643,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hessen"
       },
       "question": "Wo können Sie sich in Hessen über politische Themen informieren?",
       "answers": [
@@ -10677,7 +10672,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hessen"
       },
       "question": "Die Landeshauptstadt von Hessen heißt …",
       "answers": [
@@ -10706,7 +10701,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hessen"
       },
       "question": "Welches Bundesland ist Hessen?",
       "answers": [
@@ -10736,7 +10731,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hessen"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef in Hessen?",
       "answers": [
@@ -10765,7 +10760,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Hessen"
       },
       "question": "Welche Ministerin/welchen Minister hat Hessen nicht?",
       "answers": [
@@ -10779,12 +10774,11 @@
           "text": "Finanzministerin/Finanzminister"
         },
         {
-          "text": "Innenministerin/Innenminister Fragen für das Bundesland Mecklenburg-Vorpommern"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "pages": [
-        146,
-        147
+        146
       ],
       "images": [],
       "correct_answer_index": 1
@@ -10795,7 +10789,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Mecklenburg-Vorpommern"
       },
       "question": "Welches Wappen gehört zum Bundesland Mecklenburg-Vorpommern?",
       "answers": [
@@ -10828,7 +10822,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Mecklenburg-Vorpommern"
       },
       "question": "Welches ist ein Landkreis in Mecklenburg-Vorpommern?",
       "answers": [
@@ -10857,7 +10851,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Mecklenburg-Vorpommern"
       },
       "question": "Für wie viele Jahre wird der Landtag in Mecklenburg-Vorpommern gewählt?",
       "answers": [
@@ -10886,7 +10880,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Mecklenburg-Vorpommern"
       },
       "question": "Ab welchem Alter darf man in Mecklenburg-Vorpommern bei Kommunalwahlen wählen?",
       "answers": [
@@ -10915,7 +10909,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Mecklenburg-Vorpommern"
       },
       "question": "Welche Farben hat die Landesflagge von Mecklenburg-Vorpommern?",
       "answers": [
@@ -10944,7 +10938,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Mecklenburg-Vorpommern"
       },
       "question": "Wo können Sie sich in Mecklenburg-Vorpommern über politische Themen informieren?",
       "answers": [
@@ -10973,7 +10967,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Mecklenburg-Vorpommern"
       },
       "question": "Die Landeshauptstadt von Mecklenburg-Vorpommern heißt …",
       "answers": [
@@ -11002,7 +10996,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Mecklenburg-Vorpommern"
       },
       "question": "Welches Bundesland ist Mecklenburg-Vorpommern?",
       "answers": [
@@ -11032,7 +11026,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Mecklenburg-Vorpommern"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef in Mecklenburg-Vorpommern?",
       "answers": [
@@ -11061,7 +11055,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Mecklenburg-Vorpommern"
       },
       "question": "Welche Ministerin/welchen Minister hat Mecklenburg-Vorpommern nicht?",
       "answers": [
@@ -11075,12 +11069,11 @@
           "text": "Finanzministerin/Finanzminister"
         },
         {
-          "text": "Innenministerin/Innenminister Fragen für das Bundesland Niedersachsen"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "pages": [
-        151,
-        152
+        151
       ],
       "images": [],
       "correct_answer_index": 1
@@ -11091,7 +11084,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Niedersachsen"
       },
       "question": "Welches Wappen gehört zum Bundesland Niedersachsen?",
       "answers": [
@@ -11124,7 +11117,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Niedersachsen"
       },
       "question": "Welches ist ein Landkreis in Niedersachsen?",
       "answers": [
@@ -11153,7 +11146,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Niedersachsen"
       },
       "question": "Für wie viele Jahre wird der Landtag in Niedersachsen gewählt?",
       "answers": [
@@ -11182,7 +11175,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Niedersachsen"
       },
       "question": "Ab welchem Alter darf man in Niedersachsen bei Kommunalwahlen wählen?",
       "answers": [
@@ -11211,7 +11204,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Niedersachsen"
       },
       "question": "Welche Farben hat die Landesflagge von Niedersachsen?",
       "answers": [
@@ -11240,7 +11233,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Niedersachsen"
       },
       "question": "Wo können Sie sich in Niedersachsen über politische Themen informieren?",
       "answers": [
@@ -11269,7 +11262,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Niedersachsen"
       },
       "question": "Die Landeshauptstadt von Niedersachsen heißt …",
       "answers": [
@@ -11298,7 +11291,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Niedersachsen"
       },
       "question": "Welches Bundesland ist Niedersachsen?",
       "answers": [
@@ -11328,7 +11321,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Niedersachsen"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef in Niedersachsen?",
       "answers": [
@@ -11357,7 +11350,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Niedersachsen"
       },
       "question": "Welche Ministerin/welchen Minister hat Niedersachsen nicht?",
       "answers": [
@@ -11371,12 +11364,11 @@
           "text": "Finanzministerin/Finanzminister"
         },
         {
-          "text": "Innenministerin/Innenminister Fragen für das Bundesland Nordrhein-Westfalen"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "pages": [
-        156,
-        157
+        156
       ],
       "images": [],
       "correct_answer_index": 1
@@ -11387,7 +11379,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Nordrhein-Westfalen"
       },
       "question": "Welches Wappen gehört zum Bundesland Nordrhein-Westfalen?",
       "answers": [
@@ -11420,7 +11412,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Nordrhein-Westfalen"
       },
       "question": "Welches ist ein Landkreis in Nordrhein-Westfalen?",
       "answers": [
@@ -11449,7 +11441,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Nordrhein-Westfalen"
       },
       "question": "Für wie viele Jahre wird der Landtag in Nordrhein-Westfalen gewählt?",
       "answers": [
@@ -11478,7 +11470,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Nordrhein-Westfalen"
       },
       "question": "Ab welchem Alter darf man in Nordrhein-Westfalen bei Kommunalwahlen wählen?",
       "answers": [
@@ -11507,7 +11499,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Nordrhein-Westfalen"
       },
       "question": "Welche Farben hat die Landesflagge von Nordrhein-Westfalen?",
       "answers": [
@@ -11536,7 +11528,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Nordrhein-Westfalen"
       },
       "question": "Wo können Sie sich in Nordrhein-Westfalen über politische Themen informieren?",
       "answers": [
@@ -11565,7 +11557,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Nordrhein-Westfalen"
       },
       "question": "Die Landeshauptstadt von Nordrhein-Westfalen heißt …",
       "answers": [
@@ -11594,7 +11586,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Nordrhein-Westfalen"
       },
       "question": "Welches Bundesland ist Nordrhein-Westfalen?",
       "answers": [
@@ -11624,7 +11616,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Nordrhein-Westfalen"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef in Nordrhein-Westfalen?",
       "answers": [
@@ -11653,7 +11645,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Nordrhein-Westfalen"
       },
       "question": "Welche Ministerin/welchen Minister hat Nordrhein-Westfalen nicht?",
       "answers": [
@@ -11667,12 +11659,11 @@
           "text": "Finanzministerin/Finanzminister"
         },
         {
-          "text": "Innenministerin/Innenminister Fragen für das Bundesland Rheinland-Pfalz"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "pages": [
-        161,
-        162
+        161
       ],
       "images": [],
       "correct_answer_index": 1
@@ -11683,7 +11674,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Rheinland-Pfalz"
       },
       "question": "Welches Wappen gehört zum Bundesland Rheinland-Pfalz?",
       "answers": [
@@ -11716,7 +11707,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Rheinland-Pfalz"
       },
       "question": "Welches ist ein Landkreis in Rheinland-Pfalz?",
       "answers": [
@@ -11745,7 +11736,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Rheinland-Pfalz"
       },
       "question": "Für wie viele Jahre wird der Landtag in Rheinland-Pfalz gewählt?",
       "answers": [
@@ -11774,7 +11765,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Rheinland-Pfalz"
       },
       "question": "Ab welchem Alter darf man in Rheinland-Pfalz bei Kommunalwahlen wählen?",
       "answers": [
@@ -11803,7 +11794,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Rheinland-Pfalz"
       },
       "question": "Welche Farben hat die Landesflagge von Rheinland-Pfalz?",
       "answers": [
@@ -11832,7 +11823,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Rheinland-Pfalz"
       },
       "question": "Wo können Sie sich in Rheinland-Pfalz über politische Themen informieren?",
       "answers": [
@@ -11861,7 +11852,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Rheinland-Pfalz"
       },
       "question": "Die Landeshauptstadt von Rheinland-Pfalz heißt …",
       "answers": [
@@ -11890,7 +11881,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Rheinland-Pfalz"
       },
       "question": "Welches Bundesland ist Rheinland-Pfalz?",
       "answers": [
@@ -11920,7 +11911,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Rheinland-Pfalz"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef in Rheinland-Pfalz?",
       "answers": [
@@ -11949,7 +11940,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Rheinland-Pfalz"
       },
       "question": "Welche Ministerin/welchen Minister hat Rheinland-Pfalz nicht?",
       "answers": [
@@ -11963,12 +11954,11 @@
           "text": "Finanzministerin/Finanzminister"
         },
         {
-          "text": "Innenministerin/Innenminister Fragen für das Bundesland Saarland"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "pages": [
-        166,
-        167
+        166
       ],
       "images": [],
       "correct_answer_index": 1
@@ -11979,7 +11969,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Saarland"
       },
       "question": "Welches Wappen gehört zum Bundesland Saarland?",
       "answers": [
@@ -12012,7 +12002,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Saarland"
       },
       "question": "Welches ist ein Landkreis im Saarland?",
       "answers": [
@@ -12041,7 +12031,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Saarland"
       },
       "question": "Für wie viele Jahre wird der Landtag des Saarlandes gewählt?",
       "answers": [
@@ -12070,7 +12060,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Saarland"
       },
       "question": "Ab welchem Alter darf man im Saarland bei Kommunalwahlen wählen?",
       "answers": [
@@ -12099,7 +12089,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Saarland"
       },
       "question": "Welche Farben hat die Landesflagge des Saarlandes?",
       "answers": [
@@ -12128,7 +12118,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Saarland"
       },
       "question": "Wo können Sie sich im Saarland über politische Themen informieren?",
       "answers": [
@@ -12157,7 +12147,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Saarland"
       },
       "question": "Die Landeshauptstadt des Saarlandes heißt …",
       "answers": [
@@ -12186,7 +12176,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Saarland"
       },
       "question": "Welches Bundesland ist das Saarland?",
       "answers": [
@@ -12216,7 +12206,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Saarland"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef des Saarlandes?",
       "answers": [
@@ -12245,7 +12235,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Saarland"
       },
       "question": "Welche Ministerin/welchen Minister hat das Saarland nicht?",
       "answers": [
@@ -12259,12 +12249,11 @@
           "text": "Finanzministerin/Finanzminister"
         },
         {
-          "text": "Innenministerin/Innenminister Fragen für das Bundesland Sachsen"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "pages": [
-        171,
-        172
+        171
       ],
       "images": [],
       "correct_answer_index": 1
@@ -12275,7 +12264,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen"
       },
       "question": "Welches Wappen gehört zum Freistaat Sachsen?",
       "answers": [
@@ -12308,7 +12297,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen"
       },
       "question": "Welches ist ein Landkreis in Sachsen?",
       "answers": [
@@ -12337,7 +12326,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen"
       },
       "question": "Für wie viele Jahre wird der Landtag in Sachsen gewählt?",
       "answers": [
@@ -12366,7 +12355,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen"
       },
       "question": "Ab welchem Alter darf man in Sachsen bei Kommunalwahlen wählen?",
       "answers": [
@@ -12395,7 +12384,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen"
       },
       "question": "Welche Farben hat die Landesflagge von Sachsen?",
       "answers": [
@@ -12424,7 +12413,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen"
       },
       "question": "Wo können Sie sich in Sachsen über politische Themen informieren?",
       "answers": [
@@ -12453,7 +12442,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen"
       },
       "question": "Die Landeshauptstadt von Sachsen heißt …",
       "answers": [
@@ -12482,7 +12471,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen"
       },
       "question": "Welches Bundesland ist Sachsen?",
       "answers": [
@@ -12512,7 +12501,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef in Sachsen?",
       "answers": [
@@ -12541,7 +12530,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen"
       },
       "question": "Welche Ministerin/welchen Minister hat Sachsen nicht?",
       "answers": [
@@ -12555,12 +12544,11 @@
           "text": "Finanzministerin/Finanzminister"
         },
         {
-          "text": "Innenministerin/Innenminister Fragen für das Bundesland Sachsen-Anhalt"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "pages": [
-        176,
-        177
+        176
       ],
       "images": [],
       "correct_answer_index": 1
@@ -12571,7 +12559,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen-Anhalt"
       },
       "question": "Welches Wappen gehört zum Bundesland Sachsen-Anhalt?",
       "answers": [
@@ -12604,7 +12592,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen-Anhalt"
       },
       "question": "Welches ist ein Landkreis in Sachsen-Anhalt?",
       "answers": [
@@ -12633,7 +12621,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen-Anhalt"
       },
       "question": "Für wie viele Jahre wird der Landtag in Sachsen-Anhalt gewählt?",
       "answers": [
@@ -12662,7 +12650,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen-Anhalt"
       },
       "question": "Ab welchem Alter darf man in Sachsen-Anhalt bei Kommunalwahlen wählen?",
       "answers": [
@@ -12691,7 +12679,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen-Anhalt"
       },
       "question": "Welche Farben hat die Landesflagge von Sachsen-Anhalt?",
       "answers": [
@@ -12720,7 +12708,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen-Anhalt"
       },
       "question": "Wo können Sie sich in Sachsen-Anhalt über politische Themen informieren?",
       "answers": [
@@ -12749,7 +12737,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen-Anhalt"
       },
       "question": "Die Landeshauptstadt von Sachsen-Anhalt heißt …",
       "answers": [
@@ -12778,7 +12766,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen-Anhalt"
       },
       "question": "Welches Bundesland ist Sachsen-Anhalt?",
       "answers": [
@@ -12808,7 +12796,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen-Anhalt"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef in Sachsen-Anhalt?",
       "answers": [
@@ -12837,7 +12825,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Sachsen-Anhalt"
       },
       "question": "Welche Ministerin/welchen Minister hat Sachsen-Anhalt nicht?",
       "answers": [
@@ -12851,12 +12839,11 @@
           "text": "Finanzministerin/Finanzminister"
         },
         {
-          "text": "Innenministerin/Innenminister Fragen für das Bundesland Schleswig-Holstein"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "pages": [
-        181,
-        182
+        181
       ],
       "images": [],
       "correct_answer_index": 1
@@ -12867,7 +12854,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Schleswig-Holstein"
       },
       "question": "Welches Wappen gehört zum Bundesland Schleswig-Holstein?",
       "answers": [
@@ -12900,7 +12887,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Schleswig-Holstein"
       },
       "question": "Welches ist ein Landkreis in Schleswig-Holstein?",
       "answers": [
@@ -12929,7 +12916,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Schleswig-Holstein"
       },
       "question": "Für wie viele Jahre wird der Landtag in Schleswig-Holstein gewählt?",
       "answers": [
@@ -12958,7 +12945,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Schleswig-Holstein"
       },
       "question": "Ab welchem Alter darf man in Schleswig-Holstein bei Kommunalwahlen wählen?",
       "answers": [
@@ -12987,7 +12974,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Schleswig-Holstein"
       },
       "question": "Welche Farben hat die Landesflagge von Schleswig-Holstein?",
       "answers": [
@@ -13016,7 +13003,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Schleswig-Holstein"
       },
       "question": "Wo können Sie sich in Schleswig-Holstein über politische Themen informieren?",
       "answers": [
@@ -13045,7 +13032,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Schleswig-Holstein"
       },
       "question": "Die Landeshauptstadt von Schleswig-Holstein heißt …",
       "answers": [
@@ -13074,7 +13061,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Schleswig-Holstein"
       },
       "question": "Welches Bundesland ist Schleswig-Holstein?",
       "answers": [
@@ -13104,7 +13091,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Schleswig-Holstein"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef in Schleswig-Holstein?",
       "answers": [
@@ -13133,7 +13120,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Schleswig-Holstein"
       },
       "question": "Welche Ministerin/welchen Minister hat Schleswig-Holstein nicht?",
       "answers": [
@@ -13147,12 +13134,11 @@
           "text": "Finanzministerin/Finanzminister"
         },
         {
-          "text": "Innenministerin/Innenminister Fragen für das Bundesland Thüringen"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "pages": [
-        186,
-        187
+        186
       ],
       "images": [],
       "correct_answer_index": 1
@@ -13163,7 +13149,7 @@
       "question_number": 1,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Thüringen"
       },
       "question": "Welches Wappen gehört zum Freistaat Thüringen?",
       "answers": [
@@ -13196,7 +13182,7 @@
       "question_number": 2,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Thüringen"
       },
       "question": "Welches ist ein Landkreis in Thüringen?",
       "answers": [
@@ -13225,7 +13211,7 @@
       "question_number": 3,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Thüringen"
       },
       "question": "Für wie viele Jahre wird der Landtag in Thüringen gewählt?",
       "answers": [
@@ -13254,7 +13240,7 @@
       "question_number": 4,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Thüringen"
       },
       "question": "Ab welchem Alter darf man in Thüringen bei Kommunalwahlen wählen?",
       "answers": [
@@ -13283,7 +13269,7 @@
       "question_number": 5,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Thüringen"
       },
       "question": "Welche Farben hat die Landesflagge von Thüringen?",
       "answers": [
@@ -13312,7 +13298,7 @@
       "question_number": 6,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Thüringen"
       },
       "question": "Wo können Sie sich in Thüringen über politische Themen informieren?",
       "answers": [
@@ -13341,7 +13327,7 @@
       "question_number": 7,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Thüringen"
       },
       "question": "Die Landeshauptstadt von Thüringen heißt …",
       "answers": [
@@ -13370,7 +13356,7 @@
       "question_number": 8,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Thüringen"
       },
       "question": "Welches Bundesland ist Thüringen?",
       "answers": [
@@ -13400,7 +13386,7 @@
       "question_number": 9,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Thüringen"
       },
       "question": "Wie nennt man die Regierungschefin/den Regierungschef in Thüringen?",
       "answers": [
@@ -13429,7 +13415,7 @@
       "question_number": 10,
       "section": {
         "part": "Teil II",
-        "topic": "Allgemeine Fragen"
+        "topic": "Fragen für das Bundesland Thüringen"
       },
       "question": "Welche Ministerin/welchen Minister hat Thüringen nicht?",
       "answers": [

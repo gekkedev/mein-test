@@ -13,6 +13,19 @@ python scripts/import_pdf.py gesamtfragenkatalog-lebenindeutschland.pdf
 
 The importer creates `data/questions.json` and stores question images under `data/images/`. Re-run it whenever the source PDF changes.
 
+### Validating the import
+
+After importing, you can validate that all questions have exactly 4 answers:
+
+```powershell
+python scripts/validate_answers.py
+```
+
+The validator checks:
+- All 460 questions are present
+- Each question has exactly 4 answers
+- No answers have empty text
+
 ## Running the web app
 
 Serve the project directory with a local web server so the browser can load the JSON:
