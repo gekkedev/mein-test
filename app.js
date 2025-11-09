@@ -10,7 +10,8 @@ const elements = {
   solutionCount: document.querySelector("#solution-count"),
   markKnown: document.querySelector("#mark-known"),
   markUnknown: document.querySelector("#mark-unknown"),
-  nextQuestion: document.querySelector("#next-question"),
+  prevQuestion: document.querySelector("#prev-question"),
+  nextQuestionArrow: document.querySelector("#next-question-arrow"),
   resetProgress: document.querySelector("#reset-progress"),
   questionNumberInput: document.querySelector("#question-number-input"),
   jumpToQuestion: document.querySelector("#jump-to-question"),
@@ -64,7 +65,7 @@ async function init() {
     if (questionIdFromUrl !== null) {
       const question = findQuestionByNumber(questionIdFromUrl);
       if (question) {
-        showQuestion(question, `${formatQuestionNumber(question)} geladen.`);
+        showQuestion(question, "");
       } else {
         pickNextQuestion();
       }
@@ -99,12 +100,14 @@ function attachEventListeners() {
       const available = filteredQuestions();
       state.currentQuestionIndex = 0;
       if (available.length > 0) {
-        showQuestion(available[0], "Aufsteigende Reihenfolge aktiviert.");
+        showQuestion(available[0], "");
       }
     } else {
       // Pick random question when switching to random mode
       pickNextQuestion();
     }
+    // Update navigation arrows for the new mode
+    updateNavigationArrows();
   });
 
   elements.markKnown.addEventListener("click", () => {
@@ -123,8 +126,12 @@ function attachEventListeners() {
     setStatus("Als unbekannt markiert. Weiter geht's!", false);
   });
 
-  elements.nextQuestion.addEventListener("click", () => {
+  elements.nextQuestionArrow.addEventListener("click", () => {
     pickNextQuestion();
+  });
+
+  elements.prevQuestion.addEventListener("click", () => {
+    pickPreviousQuestion();
   });
 
   elements.jumpToQuestion.addEventListener("click", () => {
@@ -254,11 +261,22 @@ function pickNextQuestion() {
   let questionToShow;
   
   if (state.questionOrder === "ascending") {
-    // Ascending mode: pick next question in sequence
-    questionToShow = available[state.currentQuestionIndex];
+    // Find current question index, or start at 0 if not found
+    let currentIndex = state.currentQuestion 
+      ? available.findIndex(q => q.id === state.currentQuestion.id)
+      : -1;
     
-    // Move to next question, wrap around if at the end
-    state.currentQuestionIndex = (state.currentQuestionIndex + 1) % available.length;
+    if (currentIndex === -1) {
+      // Not found or no current question, use stored index
+      currentIndex = state.currentQuestionIndex;
+    } else {
+      // Found current question, advance to next
+      currentIndex = (currentIndex + 1) % available.length;
+    }
+    
+    questionToShow = available[currentIndex];
+    // Update stored index for future navigation
+    state.currentQuestionIndex = (currentIndex + 1) % available.length;
   } else {
     // Random mode: pick a random question
     const randomIndex = Math.floor(Math.random() * available.length);
@@ -266,6 +284,63 @@ function pickNextQuestion() {
   }
   
   showQuestion(questionToShow, infoMessage);
+}
+
+function pickPreviousQuestion() {
+  if (!state.questions.length) return;
+
+  const available = filteredQuestions();
+  
+  if (!available.length) {
+    state.currentQuestion = null;
+    elements.card.hidden = true;
+    return;
+  }
+
+  let questionToShow;
+  
+  if (state.questionOrder === "ascending") {
+    // Find current question index
+    let currentIndex = available.findIndex(q => q.id === state.currentQuestion?.id);
+    if (currentIndex === -1) currentIndex = 0;
+    
+    // Go to previous question, wrap around if at the beginning
+    const prevIndex = (currentIndex - 1 + available.length) % available.length;
+    questionToShow = available[prevIndex];
+    state.currentQuestionIndex = (prevIndex + 1) % available.length; // Set for next navigation
+  } else {
+    // Random mode: pick a random question
+    const randomIndex = Math.floor(Math.random() * available.length);
+    questionToShow = available[randomIndex];
+  }
+  
+  showQuestion(questionToShow, "");
+}
+
+function updateNavigationArrows() {
+  const available = filteredQuestions();
+  
+  if (state.questionOrder === "random") {
+    // Random mode: hide prev button, show next button with shuffle icon, enable next button
+    elements.prevQuestion.style.visibility = "hidden";
+    elements.nextQuestionArrow.innerHTML = "⤭"; // shuffle/random icon
+    elements.nextQuestionArrow.disabled = available.length === 0;
+    elements.nextQuestionArrow.setAttribute("aria-label", "Zufällige Frage");
+  } else {
+    // Ascending mode: show both buttons with arrow icons
+    elements.prevQuestion.style.visibility = "visible";
+    elements.nextQuestionArrow.innerHTML = "›";
+    elements.nextQuestionArrow.setAttribute("aria-label", "Nächste Frage");
+    
+    // Disable arrows when there's only one or no questions
+    if (available.length <= 1) {
+      elements.prevQuestion.disabled = true;
+      elements.nextQuestionArrow.disabled = true;
+    } else {
+      elements.prevQuestion.disabled = false;
+      elements.nextQuestionArrow.disabled = false;
+    }
+  }
 }
 
 function filteredQuestions() {
@@ -461,7 +536,7 @@ function handleJumpRequest() {
   }
 
   elements.questionNumberInput.value = "";
-  showQuestion(question, `${formatQuestionNumber(question)} geladen.`);
+  showQuestion(question, "");
 }
 
 function findQuestionByNumber(number) {
@@ -485,6 +560,7 @@ function showQuestion(question, message = "") {
     statusMessage = "Für diese Frage liegt (noch) keine Lösung vor.";
   }
   setStatus(statusMessage, false);
+  updateNavigationArrows();
   
   // Update URL with question ID
   updateUrlWithQuestionId(question);
