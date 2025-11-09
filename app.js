@@ -53,7 +53,19 @@ async function init() {
   try {
     await loadQuestions();
     updateProgressLabels();
-    pickNextQuestion();
+    
+    // Check if there's a question ID in the URL
+    const questionIdFromUrl = getQuestionIdFromUrl();
+    if (questionIdFromUrl !== null) {
+      const question = findQuestionByNumber(questionIdFromUrl);
+      if (question) {
+        showQuestion(question, `${formatQuestionNumber(question)} geladen.`);
+      } else {
+        pickNextQuestion();
+      }
+    } else {
+      pickNextQuestion();
+    }
   } catch (error) {
     console.error(error);
     setStatus("Die Fragen konnten nicht geladen werden. Bitte starte einen lokalen Webserver (z.&nbsp;B. <code>python -m http.server</code>).", true);
@@ -392,6 +404,32 @@ function showQuestion(question, message = "") {
     statusMessage = "Für diese Frage liegt (noch) keine Lösung vor.";
   }
   setStatus(statusMessage, false);
+  
+  // Update URL with question ID
+  updateUrlWithQuestionId(question);
+}
+
+function getQuestionIdFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const idParam = params.get("q");
+  if (idParam) {
+    const id = Number.parseInt(idParam, 10);
+    if (Number.isInteger(id) && id > 0) {
+      return id;
+    }
+  }
+  return null;
+}
+
+function updateUrlWithQuestionId(question) {
+  if (!question) return;
+  
+  const catalogNumber = getCatalogNumber(question);
+  if (catalogNumber !== null) {
+    const url = new URL(window.location);
+    url.searchParams.set("q", catalogNumber);
+    window.history.replaceState({}, "", url);
+  }
 }
 
 function loadKnown() {
