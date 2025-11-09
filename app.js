@@ -3,6 +3,7 @@ const SPLASH_MIN_DURATION_MS = 2000;
 
 const elements = {
   filterMode: document.querySelector("#filter-mode"),
+  bundeslandFilter: document.querySelector("#bundesland-filter"),
   progressCount: document.querySelector("#progress-count"),
   unknownCount: document.querySelector("#unknown-count"),
   solutionCount: document.querySelector("#solution-count"),
@@ -30,6 +31,7 @@ const state = {
   questions: [],
   knownIds: new Set(),
   mode: "unknown",
+  selectedBundesland: "",
   currentQuestion: null,
   selectedAnswerIndex: null,
   attemptedAnswers: new Set(),
@@ -78,6 +80,12 @@ async function init() {
 function attachEventListeners() {
   elements.filterMode.addEventListener("change", () => {
     state.mode = elements.filterMode.value;
+    pickNextQuestion();
+  });
+
+  elements.bundeslandFilter.addEventListener("change", () => {
+    state.selectedBundesland = elements.bundeslandFilter.value;
+    updateProgressLabels();
     pickNextQuestion();
   });
 
@@ -172,6 +180,32 @@ async function loadQuestions() {
   if (!state.questions.length) {
     throw new Error("Keine Fragen gefunden");
   }
+
+  populateBundeslandSelector();
+}
+
+function populateBundeslandSelector() {
+  // Extract unique bundesland names from questions
+  const bundeslaender = new Set();
+  
+  state.questions.forEach((question) => {
+    const topic = question.section?.topic || "";
+    const match = topic.match(/Fragen für das Bundesland (.+)/);
+    if (match) {
+      bundeslaender.add(match[1]);
+    }
+  });
+
+  // Sort bundeslaender alphabetically
+  const sortedBundeslaender = Array.from(bundeslaender).sort();
+
+  // Populate the select element
+  sortedBundeslaender.forEach((bundesland) => {
+    const option = document.createElement("option");
+    option.value = bundesland;
+    option.textContent = bundesland;
+    elements.bundeslandFilter.appendChild(option);
+  });
 }
 
 function pickNextQuestion() {
@@ -204,17 +238,33 @@ function pickNextQuestion() {
 }
 
 function filteredQuestions() {
+  let questions = [...state.questions];
+
+  // Apply bundesland filter
+  if (state.selectedBundesland) {
+    questions = questions.filter((question) => {
+      const topic = question.section?.topic || "";
+      // General questions (Teil I) are always included
+      if (question.section?.part === "Teil I") {
+        return true;
+      }
+      // State-specific questions must match the selected bundesland
+      return topic.includes(`Bundesland ${state.selectedBundesland}`);
+    });
+  }
+
+  // Apply known/unknown/all filter
   if (state.mode === "all") {
-    return [...state.questions];
+    return questions;
   }
 
   if (state.mode === "known") {
-    return state.questions.filter((question) => state.knownIds.has(question.id));
+    return questions.filter((question) => state.knownIds.has(question.id));
   }
 
   // unknown default
-  const unknown = state.questions.filter((question) => !state.knownIds.has(question.id));
-  return unknown.length ? unknown : [...state.questions];
+  const unknown = questions.filter((question) => !state.knownIds.has(question.id));
+  return unknown.length ? unknown : questions;
 }
 
 function getCatalogNumber(question) {
@@ -454,15 +504,34 @@ function persistKnown() {
 }
 
 function updateProgressLabels() {
-  const known = state.knownIds.size;
-  const total = state.questions.length;
+  // Get filtered questions based on bundesland selection
+  let relevantQuestions = [...state.questions];
+  if (state.selectedBundesland) {
+    relevantQuestions = state.questions.filter((question) => {
+      const topic = question.section?.topic || "";
+      // General questions (Teil I) are always included
+      if (question.section?.part === "Teil I") {
+        return true;
+      }
+      // State-specific questions must match the selected bundesland
+      return topic.includes(`Bundesland ${state.selectedBundesland}`);
+    });
+  }
+
+  const total = relevantQuestions.length;
+  const known = relevantQuestions.filter((question) => state.knownIds.has(question.id)).length;
   const unknown = total - known;
   const percentage = total ? Math.round((known / total) * 100) : 0;
-  const solutions = state.questions.reduce((count, question) => (
+  const solutions = relevantQuestions.reduce((count, question) => (
     typeof question.correct_answer_index === "number" ? count + 1 : count
   ), 0);
 
-  elements.progressCount.textContent = `${known} / ${total} gelernt (${percentage}%)`;
+  let progressText = `${known} / ${total} gelernt (${percentage}%)`;
+  if (state.selectedBundesland) {
+    progressText += ` – ${state.selectedBundesland}`;
+  }
+
+  elements.progressCount.textContent = progressText;
   elements.unknownCount.textContent = `${unknown} offene Fragen`;
   elements.solutionCount.textContent = `${solutions} Lösungen hinterlegt`;
 }
