@@ -4,6 +4,7 @@ const SPLASH_MIN_DURATION_MS = 2000;
 const elements = {
   filterMode: document.querySelector("#filter-mode"),
   bundeslandFilter: document.querySelector("#bundesland-filter"),
+  questionOrder: document.querySelector("#question-order"),
   progressCount: document.querySelector("#progress-count"),
   unknownCount: document.querySelector("#unknown-count"),
   solutionCount: document.querySelector("#solution-count"),
@@ -32,6 +33,8 @@ const state = {
   knownIds: new Set(),
   mode: "unknown",
   selectedBundesland: "",
+  questionOrder: "random",
+  currentQuestionIndex: 0,
   currentQuestion: null,
   selectedAnswerIndex: null,
   attemptedAnswers: new Set(),
@@ -87,6 +90,21 @@ function attachEventListeners() {
     state.selectedBundesland = elements.bundeslandFilter.value;
     updateProgressLabels();
     pickNextQuestion();
+  });
+
+  elements.questionOrder.addEventListener("change", () => {
+    state.questionOrder = elements.questionOrder.value;
+    if (state.questionOrder === "ascending") {
+      // Jump to first available non-learned question when switching to ascending mode
+      const available = filteredQuestions();
+      state.currentQuestionIndex = 0;
+      if (available.length > 0) {
+        showQuestion(available[0], "Aufsteigende Reihenfolge aktiviert.");
+      }
+    } else {
+      // Pick random question when switching to random mode
+      pickNextQuestion();
+    }
   });
 
   elements.markKnown.addEventListener("click", () => {
@@ -233,8 +251,21 @@ function pickNextQuestion() {
     return;
   }
 
-  const randomIndex = Math.floor(Math.random() * available.length);
-  showQuestion(available[randomIndex], infoMessage);
+  let questionToShow;
+  
+  if (state.questionOrder === "ascending") {
+    // Ascending mode: pick next question in sequence
+    questionToShow = available[state.currentQuestionIndex];
+    
+    // Move to next question, wrap around if at the end
+    state.currentQuestionIndex = (state.currentQuestionIndex + 1) % available.length;
+  } else {
+    // Random mode: pick a random question
+    const randomIndex = Math.floor(Math.random() * available.length);
+    questionToShow = available[randomIndex];
+  }
+  
+  showQuestion(questionToShow, infoMessage);
 }
 
 function filteredQuestions() {
