@@ -1,4 +1,5 @@
 const STORAGE_KEY = "mein-test-known-v1";
+const PREFERENCES_KEY = "mein-test-preferences-v1";
 const SPLASH_MIN_DURATION_MS = 2000;
 
 const elements = {
@@ -27,6 +28,8 @@ const elements = {
   imageLightbox: document.querySelector("#image-lightbox"),
   lightboxImage: document.querySelector("#lightbox-image"),
   closeLightbox: document.querySelector("#close-lightbox"),
+  controlPanel: document.querySelector(".control-panel"),
+  controlPanelHeader: document.querySelector(".control-panel-header"),
 };
 
 const state = {
@@ -54,6 +57,14 @@ async function init() {
 
   state.splashShownAt = performance.now();
   state.knownIds = loadKnown();
+  
+  // Load preferences and apply them to the state and UI
+  const preferences = loadPreferences();
+  if (preferences.questionOrder) {
+    state.questionOrder = preferences.questionOrder;
+    elements.questionOrder.value = preferences.questionOrder;
+  }
+  
   attachEventListeners();
 
   try {
@@ -95,6 +106,12 @@ function attachEventListeners() {
 
   elements.questionOrder.addEventListener("change", () => {
     state.questionOrder = elements.questionOrder.value;
+    
+    // Persist the preference
+    const preferences = loadPreferences();
+    preferences.questionOrder = state.questionOrder;
+    persistPreferences(preferences);
+    
     if (state.questionOrder === "ascending") {
       // Jump to first available non-learned question when switching to ascending mode
       const available = filteredQuestions();
@@ -115,7 +132,8 @@ function attachEventListeners() {
     state.knownIds.add(state.currentQuestion.id);
     persistKnown();
     updateProgressLabels();
-    pickNextQuestion();
+    updateMarkButtonStates();
+    setStatus("Als gelernt markiert.", false);
   });
 
   elements.markUnknown.addEventListener("click", () => {
@@ -123,7 +141,8 @@ function attachEventListeners() {
     state.knownIds.delete(state.currentQuestion.id);
     persistKnown();
     updateProgressLabels();
-    setStatus("Als unbekannt markiert. Weiter geht's!", false);
+    updateMarkButtonStates();
+    setStatus("Als ungelernt markiert. Weiter geht's!", false);
   });
 
   elements.nextQuestionArrow.addEventListener("click", () => {
@@ -146,11 +165,28 @@ function attachEventListeners() {
   });
 
   elements.resetProgress.addEventListener("click", () => {
-    if (confirm("Möchtest du deinen Lernfortschritt wirklich löschen?")) {
+    if (confirm("Möchtest du deinen Lernfortschritt und alle Einstellungen wirklich zurücksetzen?")) {
+      // Clear learning progress
       state.knownIds.clear();
       persistKnown();
+      
+      // Reset settings to defaults
+      state.mode = "unknown";
+      state.selectedBundesland = "";
+      state.questionOrder = "random";
+      
+      // Update UI elements
+      elements.filterMode.value = "unknown";
+      elements.bundeslandFilter.value = "";
+      elements.questionOrder.value = "random";
+      
+      // Clear preferences from localStorage
+      const preferences = loadPreferences();
+      preferences.questionOrder = "random";
+      persistPreferences(preferences);
+      
       updateProgressLabels();
-      setStatus("Fortschritt gelöscht.", false);
+      setStatus("Fortschritt und Einstellungen zurückgesetzt.", false);
       pickNextQuestion();
     }
   });
@@ -162,6 +198,14 @@ function attachEventListeners() {
 
   if (elements.closeLightbox) {
     elements.closeLightbox.addEventListener("click", () => closeImageLightbox());
+  }
+
+  if (elements.controlPanel) {
+    if (elements.controlPanelHeader) {
+      elements.controlPanelHeader.addEventListener("click", (e) => {
+          elements.controlPanel.classList.toggle("collapsed");
+      });
+    }
   }
 
   if (elements.imageLightbox) {
@@ -321,7 +365,7 @@ function updateNavigationArrows() {
   const available = filteredQuestions();
   
   if (state.questionOrder === "random") {
-    // Random mode: hide prev button, show next button with shuffle icon, enable next button
+    // Random mode: hide prev button, show next button with shuffle icon
     elements.prevQuestion.style.visibility = "hidden";
     elements.nextQuestionArrow.innerHTML = "⤭"; // shuffle/random icon
     elements.nextQuestionArrow.disabled = available.length === 0;
@@ -340,6 +384,26 @@ function updateNavigationArrows() {
       elements.prevQuestion.disabled = false;
       elements.nextQuestionArrow.disabled = false;
     }
+  }
+}
+
+function updateMarkButtonStates() {
+  if (!state.currentQuestion) {
+    // If no current question, remove active state from both buttons
+    elements.markKnown.classList.remove("active");
+    elements.markUnknown.classList.remove("active");
+    return;
+  }
+  
+  const isLearned = state.knownIds.has(state.currentQuestion.id);
+  
+  // Update button states - they should be mutually exclusive
+  if (isLearned) {
+    elements.markKnown.classList.add("active");
+    elements.markUnknown.classList.remove("active");
+  } else {
+    elements.markKnown.classList.remove("active");
+    elements.markUnknown.classList.add("active");
   }
 }
 
@@ -492,6 +556,7 @@ function evaluateAnswerSelection(answerIndex, item) {
       state.knownIds.add(question.id);
       persistKnown();
       updateProgressLabels();
+      updateMarkButtonStates();
       setStatus("Richtig! Frage wurde als gelernt markiert.", false);
     } else {
       setStatus("Richtig!", false);
@@ -561,6 +626,7 @@ function showQuestion(question, message = "") {
   }
   setStatus(statusMessage, false);
   updateNavigationArrows();
+  updateMarkButtonStates();
   
   // Update URL with question ID
   updateUrlWithQuestionId(question);
@@ -610,6 +676,27 @@ function persistKnown() {
   localStorage.setItem(STORAGE_KEY, payload);
 }
 
+function loadPreferences() {
+  try {
+    const raw = localStorage.getItem(PREFERENCES_KEY);
+    if (!raw) {
+      return {};
+    }
+    const preferences = JSON.parse(raw);
+    if (typeof preferences === 'object' && preferences !== null) {
+      return preferences;
+    }
+  } catch (error) {
+    console.warn("Konnte gespeicherte Einstellungen nicht laden", error);
+  }
+  return {};
+}
+
+function persistPreferences(preferences) {
+  const payload = JSON.stringify(preferences);
+  localStorage.setItem(PREFERENCES_KEY, payload);
+}
+
 function updateProgressLabels() {
   // Get filtered questions based on bundesland selection
   let relevantQuestions = [...state.questions];
@@ -640,7 +727,14 @@ function updateProgressLabels() {
 
   elements.progressCount.textContent = progressText;
   elements.unknownCount.textContent = `${unknown} offene Fragen`;
-  elements.solutionCount.textContent = `${solutions} Lösungen hinterlegt`;
+  
+  // Only show solution count if it's less than total (indicating missing solutions)
+  if (solutions < total) {
+    elements.solutionCount.textContent = `${solutions} Lösungen hinterlegt`;
+    elements.solutionCount.style.display = '';
+  } else {
+    elements.solutionCount.style.display = 'none';
+  }
 }
 
 function setStatus(message, isError) {
