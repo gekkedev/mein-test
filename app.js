@@ -305,22 +305,28 @@ function pickNextQuestion() {
   let questionToShow;
   
   if (state.questionOrder === "ascending") {
-    // Find current question index, or start at 0 if not found
+    // Find current question index in the available filtered questions
     let currentIndex = state.currentQuestion 
       ? available.findIndex(q => q.id === state.currentQuestion.id)
       : -1;
     
     if (currentIndex === -1) {
-      // Not found or no current question, use stored index
-      currentIndex = state.currentQuestionIndex;
+      // Current question not found in available questions
+      // Start from the beginning or find the next available question after the stored index
+      currentIndex = 0;
+      
+      // If we have a stored index, try to find the next question from that position
+      if (state.currentQuestionIndex >= 0 && state.currentQuestionIndex < available.length) {
+        currentIndex = state.currentQuestionIndex;
+      }
     } else {
       // Found current question, advance to next
       currentIndex = (currentIndex + 1) % available.length;
     }
     
     questionToShow = available[currentIndex];
-    // Update stored index for future navigation
-    state.currentQuestionIndex = (currentIndex + 1) % available.length;
+    // Store the current index for future reference
+    state.currentQuestionIndex = currentIndex;
   } else {
     // Random mode: pick a random question
     const randomIndex = Math.floor(Math.random() * available.length);
@@ -344,14 +350,20 @@ function pickPreviousQuestion() {
   let questionToShow;
   
   if (state.questionOrder === "ascending") {
-    // Find current question index
+    // Find current question index in the available filtered questions
     let currentIndex = available.findIndex(q => q.id === state.currentQuestion?.id);
-    if (currentIndex === -1) currentIndex = 0;
+    
+    if (currentIndex === -1) {
+      // Current question not found, use stored index or start from end
+      currentIndex = state.currentQuestionIndex >= 0 && state.currentQuestionIndex < available.length 
+        ? state.currentQuestionIndex 
+        : available.length - 1;
+    }
     
     // Go to previous question, wrap around if at the beginning
     const prevIndex = (currentIndex - 1 + available.length) % available.length;
     questionToShow = available[prevIndex];
-    state.currentQuestionIndex = (prevIndex + 1) % available.length; // Set for next navigation
+    state.currentQuestionIndex = prevIndex; // Store the current index
   } else {
     // Random mode: pick a random question
     const randomIndex = Math.floor(Math.random() * available.length);
