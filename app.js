@@ -7,7 +7,6 @@ const elements = {
   bundeslandFilter: document.querySelector("#bundesland-filter"),
   questionOrder: document.querySelector("#question-order"),
   progressCount: document.querySelector("#progress-count"),
-  unknownCount: document.querySelector("#unknown-count"),
   solutionCount: document.querySelector("#solution-count"),
   markKnown: document.querySelector("#mark-known"),
   markUnknown: document.querySelector("#mark-unknown"),
@@ -30,6 +29,14 @@ const elements = {
   closeLightbox: document.querySelector("#close-lightbox"),
   controlPanel: document.querySelector(".control-panel"),
   controlPanelHeader: document.querySelector(".control-panel-header"),
+  congratulationsModal: document.querySelector("#congratulations-modal"),
+  congratulationsMessage: document.querySelector("#congratulations-message"),
+  congratsTotalQuestions: document.querySelector("#congrats-total-questions"),
+  congratsBundeslandStat: document.querySelector("#congrats-bundesland-stat"),
+  congratsBundeslandText: document.querySelector("#congrats-bundesland-text"),
+  closeCongratulations: document.querySelector("#close-congratulations"),
+  congratsContinue: document.querySelector("#congrats-continue"),
+  congratsReset: document.querySelector("#congrats-reset"),
 };
 
 const state = {
@@ -46,6 +53,7 @@ const state = {
   lastFocusedImage: null,
   splashShownAt: null,
   splashHideScheduled: false,
+  congratulationsShown: false,
 };
 
 document.addEventListener("DOMContentLoaded", init);
@@ -170,6 +178,9 @@ function attachEventListeners() {
       state.knownIds.clear();
       persistKnown();
       
+      // Reset congratulations shown flag
+      state.congratulationsShown = false;
+      
       // Reset settings to defaults
       state.mode = "unknown";
       state.selectedBundesland = "";
@@ -217,6 +228,45 @@ function attachEventListeners() {
   }
 
   document.addEventListener("keydown", handleGlobalKeydown);
+
+  // Congratulations modal event listeners
+  if (elements.closeCongratulations) {
+    elements.closeCongratulations.addEventListener("click", () => {
+      hideCongratulationsModal();
+    });
+  }
+
+  if (elements.congratsContinue) {
+    elements.congratsContinue.addEventListener("click", () => {
+      hideCongratulationsModal();
+    });
+  }
+
+  if (elements.congratsReset) {
+    elements.congratsReset.addEventListener("click", () => {
+      if (confirm("Möchtest du deinen Lernfortschritt wirklich zurücksetzen und neu anfangen?")) {
+        // Clear learning progress
+        state.knownIds.clear();
+        persistKnown();
+        
+        // Reset congratulations shown flag
+        state.congratulationsShown = false;
+        
+        updateProgressLabels();
+        setStatus("Fortschritt zurückgesetzt. Viel Erfolg beim erneuten Lernen!", false);
+        hideCongratulationsModal();
+        pickNextQuestion();
+      }
+    });
+  }
+
+  if (elements.congratulationsModal) {
+    elements.congratulationsModal.addEventListener("click", (event) => {
+      if (event.target === elements.congratulationsModal) {
+        hideCongratulationsModal();
+      }
+    });
+  }
 
   elements.answers.addEventListener("click", (event) => {
     if (!state.currentQuestion) return;
@@ -738,7 +788,6 @@ function updateProgressLabels() {
   }
 
   elements.progressCount.textContent = progressText;
-  elements.unknownCount.textContent = `${unknown} offene Fragen`;
   
   // Only show solution count if it's less than total (indicating missing solutions)
   if (solutions < total) {
@@ -747,6 +796,65 @@ function updateProgressLabels() {
   } else {
     elements.solutionCount.style.display = 'none';
   }
+  
+  // Check for 100% completion and show congratulations modal
+  if (known === total && total > 0 && !state.congratulationsShown) {
+    state.congratulationsShown = true;
+    setTimeout(() => showCongratulationsModal(total, state.selectedBundesland), 500); // Small delay for better UX
+  }
+  
+  // Reset congratulations shown flag if not at 100%
+  if (known < total) {
+    state.congratulationsShown = false;
+  }
+}
+
+function showCongratulationsModal(totalQuestions, bundesland) {
+  if (!elements.congratulationsModal) return;
+  
+  // Update congratulations content
+  elements.congratsTotalQuestions.textContent = totalQuestions;
+  
+  if (bundesland) {
+    elements.congratsBundeslandText.textContent = `Alle Fragen für ${bundesland}`;
+    elements.congratsBundeslandStat.style.display = 'block';
+    elements.congratulationsMessage.textContent = 
+      `Du hast 100% aller Fragen für ${bundesland} gelernt! Du bist bestens für den Einbürgerungstest vorbereitet.`;
+  } else {
+    elements.congratsBundeslandStat.style.display = 'none';
+    elements.congratulationsMessage.textContent = 
+      `Du hast 100% aller Fragen gelernt! Du bist bestens für den Einbürgerungstest vorbereitet.`;
+  }
+  
+  // Show modal
+  elements.congratulationsModal.hidden = false;
+  elements.congratulationsModal.setAttribute('aria-hidden', 'false');
+  
+  // Focus management
+  elements.closeCongratulations.focus();
+  
+  // Prevent body scroll
+  document.body.style.overflow = 'hidden';
+  
+  // Add escape key listener
+  const handleEscape = (event) => {
+    if (event.key === 'Escape') {
+      hideCongratulationsModal();
+      document.removeEventListener('keydown', handleEscape);
+    }
+  };
+  document.addEventListener('keydown', handleEscape);
+}
+
+function hideCongratulationsModal() {
+  if (!elements.congratulationsModal) return;
+  
+  // Hide modal
+  elements.congratulationsModal.hidden = true;
+  elements.congratulationsModal.setAttribute('aria-hidden', 'true');
+  
+  // Restore body scroll
+  document.body.style.overflow = '';
 }
 
 function setStatus(message, isError) {

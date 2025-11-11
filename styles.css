@@ -747,3 +747,280 @@ body.splash-active {
     gap: 0.5rem;
   }
 }
+
+/* Congratulations Modal */
+.congratulations-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 3000;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.congratulations-modal[hidden] {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.congratulations-content {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 0;
+  max-width: 480px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  animation: congratsSlideIn 0.4s ease-out;
+}
+
+body.dark .congratulations-content {
+  background: #1e293b;
+  color: #f8fafc;
+}
+
+@keyframes congratsSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.congratulations-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  color: #64748b;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  z-index: 1;
+}
+
+.congratulations-close:hover {
+  background: #f1f5f9;
+  color: #334155;
+}
+
+body.dark .congratulations-close {
+  color: #94a3b8;
+}
+
+body.dark .congratulations-close:hover {
+  background: #334155;
+  color: #f8fafc;
+}
+
+.congratulations-header {
+  text-align: center;
+  padding: 2rem 2rem 1rem;
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+  border-radius: 16px 16px 0 0;
+  color: white;
+}
+
+.congratulations-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  animation: congratsBounce 1s ease-in-out;
+}
+
+@keyframes congratsBounce {
+  0%, 20%, 60%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+}
+
+.congratulations-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.congratulations-body {
+  padding: 2rem;
+}
+
+.congratulations-message {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 0 2rem;
+  text-align: center;
+  color: #475569;
+}
+
+body.dark .congratulations-message {
+  color: #cbd5e1;
+}
+
+.congratulations-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  text-align: center;
+}
+
+body.dark .congratulations-stats {
+  background: #0f172a;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #059669;
+}
+
+body.dark .stat-number {
+  color: #10b981;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+body.dark .stat-label {
+  color: #94a3b8;
+}
+
+.stat-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e40af;
+  padding: 0.5rem 1rem;
+  background: #dbeafe;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+body.dark .stat-text {
+  color: #60a5fa;
+  background: #1e3a8a;
+}
+
+.congratulations-actions {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.congratulations-actions button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.btn-primary {
+  background: #059669;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #047857;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: #f1f5f9;
+  color: #475569;
+  border: 1px solid #e2e8f0;
+}
+
+.btn-secondary:hover {
+  background: #e2e8f0;
+  border-color: #cbd5e1;
+}
+
+body.dark .btn-secondary {
+  background: #334155;
+  color: #e2e8f0;
+  border-color: #475569;
+}
+
+body.dark .btn-secondary:hover {
+  background: #475569;
+  border-color: #64748b;
+}
+
+@media (min-width: 640px) {
+  .congratulations-actions {
+    flex-direction: row;
+  }
+  
+  .congratulations-stats {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .congratulations-content {
+    margin: 1rem;
+    max-height: calc(100vh - 2rem);
+  }
+  
+  .congratulations-header {
+    padding: 1.5rem 1.5rem 1rem;
+  }
+  
+  .congratulations-icon {
+    font-size: 3rem;
+  }
+  
+  .congratulations-title {
+    font-size: 1.5rem;
+  }
+  
+  .congratulations-body {
+    padding: 1.5rem;
+  }
+}
