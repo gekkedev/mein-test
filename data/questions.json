@@ -437,7 +437,8 @@
       "pages": [
         6
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 16,
@@ -615,7 +616,8 @@
         "images/question_0021_2.png",
         "images/question_0021_3.png",
         "images/question_0021_4.jpeg"
-      ]
+      ],
+      "correct_answer_index": 0
     },
     {
       "id": 22,
@@ -1602,7 +1604,8 @@
       ],
       "images": [
         "images/question_0055_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 0
     },
     {
       "id": 56,
@@ -2038,7 +2041,8 @@
       ],
       "images": [
         "images/question_0070_1.png"
-      ]
+      ],
+      "correct_answer_index": 3
     },
     {
       "id": 71,
@@ -2791,7 +2795,8 @@
       "pages": [
         36
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 97,
@@ -3225,7 +3230,8 @@
       "pages": [
         41
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 112,
@@ -3427,7 +3433,8 @@
       "pages": [
         43
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 3
     },
     {
       "id": 119,
@@ -3776,7 +3783,8 @@
       ],
       "images": [
         "images/question_0130_1.png"
-      ]
+      ],
+      "correct_answer_index": 0
     },
     {
       "id": 131,
@@ -4326,7 +4334,8 @@
       "pages": [
         55
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 2
     },
     {
       "id": 150,
@@ -5110,7 +5119,8 @@
       ],
       "images": [
         "images/question_0176_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 2
     },
     {
       "id": 177,
@@ -5256,7 +5266,8 @@
       ],
       "images": [
         "images/question_0181_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 1
     },
     {
       "id": 182,
@@ -5342,7 +5353,8 @@
       "pages": [
         68
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 0
     },
     {
       "id": 185,
@@ -5430,7 +5442,8 @@
       ],
       "images": [
         "images/question_0187_1.png"
-      ]
+      ],
+      "correct_answer_index": 3
     },
     {
       "id": 188,
@@ -5980,7 +5993,8 @@
       "pages": [
         76
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 207,
@@ -6071,7 +6085,8 @@
         "images/question_0209_2.png",
         "images/question_0209_3.png",
         "images/question_0209_4.jpeg"
-      ]
+      ],
+      "correct_answer_index": 3
     },
     {
       "id": 210,
@@ -6275,7 +6290,8 @@
       ],
       "images": [
         "images/question_0216_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 0
     },
     {
       "id": 217,
@@ -6569,7 +6585,8 @@
         "images/question_0226_2.jpeg",
         "images/question_0226_3.jpeg",
         "images/question_0226_4.jpeg"
-      ]
+      ],
+      "correct_answer_index": 1
     },
     {
       "id": 227,
@@ -6831,7 +6848,8 @@
       ],
       "images": [
         "images/question_0235_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 2
     },
     {
       "id": 236,
@@ -8367,7 +8385,8 @@
       "pages": [
         106
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 289,
@@ -8685,7 +8704,8 @@
       "pages": [
         111
       ],
-      "images": []
+      "images": [],
+      "correct_answer_index": 1
     },
     {
       "id": 300,
@@ -8747,7 +8767,8 @@
         "images/question_0301_2.png",
         "images/question_0301_3.png",
         "images/question_0301_4.png"
-      ]
+      ],
+      "correct_answer_index": 0
     },
     {
       "id": 302,
@@ -8834,7 +8855,7 @@
         113
       ],
       "images": [],
-      "correct_answer_index": 2
+      "correct_answer_index": 1
     },
     {
       "id": 305,
@@ -8951,7 +8972,8 @@
       ],
       "images": [
         "images/question_0308_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 1
     },
     {
       "id": 309,
@@ -9042,7 +9064,8 @@
         "images/question_0311_2.png",
         "images/question_0311_3.png",
         "images/question_0311_4.png"
-      ]
+      ],
+      "correct_answer_index": 1
     },
     {
       "id": 312,
@@ -9246,7 +9269,8 @@
       ],
       "images": [
         "images/question_0318_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 3
     },
     {
       "id": 319,
@@ -9337,7 +9361,8 @@
         "images/question_0321_2.png",
         "images/question_0321_3.png",
         "images/question_0321_4.png"
-      ]
+      ],
+      "correct_answer_index": 3
     },
     {
       "id": 322,
@@ -9633,7 +9658,8 @@
         "images/question_0331_2.png",
         "images/question_0331_3.png",
         "images/question_0331_4.jpeg"
-      ]
+      ],
+      "correct_answer_index": 0
     },
     {
       "id": 332,
@@ -9720,7 +9746,7 @@
         128
       ],
       "images": [],
-      "correct_answer_index": 2
+      "correct_answer_index": 1
     },
     {
       "id": 335,
@@ -9837,7 +9863,8 @@
       ],
       "images": [
         "images/question_0338_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 3
     },
     {
       "id": 339,
@@ -9928,7 +9955,8 @@
         "images/question_0341_2.jpeg",
         "images/question_0341_3.png",
         "images/question_0341_4.png"
-      ]
+      ],
+      "correct_answer_index": 2
     },
     {
       "id": 342,
@@ -10132,7 +10160,8 @@
       ],
       "images": [
         "images/question_0348_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 0
     },
     {
       "id": 349,
@@ -10223,7 +10252,8 @@
         "images/question_0351_2.png",
         "images/question_0351_3.png",
         "images/question_0351_4.png"
-      ]
+      ],
+      "correct_answer_index": 1
     },
     {
       "id": 352,
@@ -10281,7 +10311,7 @@
         138
       ],
       "images": [],
-      "correct_answer_index": 1
+      "correct_answer_index": 2
     },
     {
       "id": 354,
@@ -10310,7 +10340,7 @@
         138
       ],
       "images": [],
-      "correct_answer_index": 2
+      "correct_answer_index": 1
     },
     {
       "id": 355,
@@ -10427,7 +10457,8 @@
       ],
       "images": [
         "images/question_0358_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 2
     },
     {
       "id": 359,
@@ -10723,7 +10754,8 @@
       ],
       "images": [
         "images/question_0368_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 2
     },
     {
       "id": 369,
@@ -10814,7 +10846,8 @@
         "images/question_0371_2.png",
         "images/question_0371_3.png",
         "images/question_0371_4.png"
-      ]
+      ],
+      "correct_answer_index": 2
     },
     {
       "id": 372,
@@ -11018,7 +11051,8 @@
       ],
       "images": [
         "images/question_0378_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 2
     },
     {
       "id": 379,
@@ -11109,7 +11143,8 @@
         "images/question_0381_2.png",
         "images/question_0381_3.png",
         "images/question_0381_4.jpeg"
-      ]
+      ],
+      "correct_answer_index": 2
     },
     {
       "id": 382,
@@ -11313,7 +11348,8 @@
       ],
       "images": [
         "images/question_0388_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 0
     },
     {
       "id": 389,
@@ -11404,7 +11440,8 @@
         "images/question_0391_2.png",
         "images/question_0391_3.png",
         "images/question_0391_4.jpeg"
-      ]
+      ],
+      "correct_answer_index": 1
     },
     {
       "id": 392,
@@ -11608,7 +11645,8 @@
       ],
       "images": [
         "images/question_0398_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 2
     },
     {
       "id": 399,
@@ -11699,7 +11737,8 @@
         "images/question_0401_2.png",
         "images/question_0401_3.png",
         "images/question_0401_4.png"
-      ]
+      ],
+      "correct_answer_index": 0
     },
     {
       "id": 402,
@@ -11903,7 +11942,8 @@
       ],
       "images": [
         "images/question_0408_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 0
     },
     {
       "id": 409,
@@ -11994,7 +12034,8 @@
         "images/question_0411_2.png",
         "images/question_0411_3.png",
         "images/question_0411_4.png"
-      ]
+      ],
+      "correct_answer_index": 3
     },
     {
       "id": 412,
@@ -12198,7 +12239,8 @@
       ],
       "images": [
         "images/question_0418_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 1
     },
     {
       "id": 419,
@@ -12289,7 +12331,8 @@
         "images/question_0421_2.png",
         "images/question_0421_3.png",
         "images/question_0421_4.jpeg"
-      ]
+      ],
+      "correct_answer_index": 3
     },
     {
       "id": 422,
@@ -12493,7 +12536,8 @@
       ],
       "images": [
         "images/question_0428_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 3
     },
     {
       "id": 429,
@@ -12584,7 +12628,8 @@
         "images/question_0431_2.png",
         "images/question_0431_3.png",
         "images/question_0431_4.png"
-      ]
+      ],
+      "correct_answer_index": 3
     },
     {
       "id": 432,
@@ -12788,7 +12833,8 @@
       ],
       "images": [
         "images/question_0438_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 2
     },
     {
       "id": 439,
@@ -12879,7 +12925,8 @@
         "images/question_0441_2.png",
         "images/question_0441_3.png",
         "images/question_0441_4.png"
-      ]
+      ],
+      "correct_answer_index": 2
     },
     {
       "id": 442,
@@ -13083,7 +13130,8 @@
       ],
       "images": [
         "images/question_0448_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 0
     },
     {
       "id": 449,
@@ -13174,7 +13222,8 @@
         "images/question_0451_2.png",
         "images/question_0451_3.jpeg",
         "images/question_0451_4.png"
-      ]
+      ],
+      "correct_answer_index": 3
     },
     {
       "id": 452,
@@ -13378,7 +13427,8 @@
       ],
       "images": [
         "images/question_0458_1.jpeg"
-      ]
+      ],
+      "correct_answer_index": 1
     },
     {
       "id": 459,
