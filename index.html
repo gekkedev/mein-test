@@ -17,8 +17,16 @@
 </head>
 <body>
   <div id="splash-screen" class="splash-screen" aria-hidden="true">
-    <img src="cover-image.png" alt="Mein Test Logo" />
+    <img id="splash-logo" src="" alt="Mein Test Logo" />
   </div>
+  <script>
+    // Randomly select splash screen image on page load
+    (function() {
+      const randomNum = Math.floor(Math.random() * 11) + 1;
+      const splashLogo = document.getElementById('splash-logo');
+      splashLogo.src = `splashscreens/${randomNum}.png`;
+    })();
+  </script>
   <header class="app-header">
     <h1>Mein Test</h1>
     <p>Trainiere den deutschen Einbürgerungstest und fokussiere dich auf die Fragen, die du noch nicht sicher beherrschst.</p>

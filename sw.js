@@ -1,10 +1,20 @@
-const CACHE_VERSION = "v3";
+const CACHE_VERSION = "v4";
 const CACHE_NAME = `mein-test-${CACHE_VERSION}`;
 const CORE_ASSETS = [
   "index.html",
   "styles.css",
   "app.js",
-  "cover-image.png",
+  "splashscreens/1.png",
+  "splashscreens/2.png",
+  "splashscreens/3.png",
+  "splashscreens/4.png",
+  "splashscreens/5.png",
+  "splashscreens/6.png",
+  "splashscreens/7.png",
+  "splashscreens/8.png",
+  "splashscreens/9.png",
+  "splashscreens/10.png",
+  "splashscreens/11.png",
   "manifest.webmanifest",
   "icons/favicon.ico",
   "icons/icon-16.png",
