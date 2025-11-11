@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "gesamtfragenkatalog-lebenindeutschland.pdf",
-    "generated_at": "2025-11-09T14:55:07.255141+00:00",
+    "generated_at": "2025-11-11T21:13:33.061602+00:00",
     "question_count": 460
   },
   "questions": [
@@ -5335,7 +5335,7 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "184. Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?",
+      "question": "Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?",
       "answers": [
         {
           "text": "eine Resolution der Vereinten Nationen"
@@ -5975,7 +5975,7 @@
         "part": "Teil I",
         "topic": "Allgemeine Fragen"
       },
-      "question": "206. Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
+      "question": "Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
       "answers": [
         {
           "text": "an berühmte deutsche Politikerinnen und Politiker"

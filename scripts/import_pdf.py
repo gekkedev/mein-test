@@ -344,6 +344,12 @@ def parse_questions(lines: List[dict]):
 
 def finalize_question(current_question: dict, questions: List[dict]) -> None:
     question_text = " ".join(current_question["question_lines"]).strip()
+    
+    # Filter out question number if it appears at the beginning of the question text
+    # Pattern: "184. " or "206. " etc.
+    import re
+    question_text = re.sub(r'^\d+\.\s*', '', question_text)
+    
     answers = [{"text": answer["text"].strip()} for answer in current_question["answers"]]
     
     # Remove any empty answers
