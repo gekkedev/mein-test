@@ -72,6 +72,10 @@ async function init() {
     state.questionOrder = preferences.questionOrder;
     elements.questionOrder.value = preferences.questionOrder;
   }
+  if (preferences.selectedBundesland) {
+    state.selectedBundesland = preferences.selectedBundesland;
+    elements.bundeslandFilter.value = preferences.selectedBundesland;
+  }
   
   attachEventListeners();
 
@@ -108,6 +112,12 @@ function attachEventListeners() {
 
   elements.bundeslandFilter.addEventListener("change", () => {
     state.selectedBundesland = elements.bundeslandFilter.value;
+    
+    // Persist the preference
+    const preferences = loadPreferences();
+    preferences.selectedBundesland = state.selectedBundesland;
+    persistPreferences(preferences);
+    
     updateProgressLabels();
     pickNextQuestion();
   });
@@ -194,6 +204,7 @@ function attachEventListeners() {
       // Clear preferences from localStorage
       const preferences = loadPreferences();
       preferences.questionOrder = "random";
+      preferences.selectedBundesland = "";
       persistPreferences(preferences);
       
       updateProgressLabels();
