@@ -54,14 +54,82 @@ body.dark .app-footer {
 .app-header h1 {
   margin: 0 0 0.25rem;
   font-size: clamp(2rem, 5vw, 2.8rem);
-  font-family: 'UnifrakturMaguntia', 'Old English Text MT', Georgia, serif;
+  font-family: "Segoe UI", Roboto, sans-serif;
   letter-spacing: 0.04em;
 }
 
+.app-header h1 .brand-name {
+  font-family: 'UnifrakturMaguntia', 'Old English Text MT', Georgia, serif;
+}
+
+.app-header h2.app-subtitle {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  font-weight: 400;
+  color: var(--accent);
+  opacity: 0.9;
+}
+
+body.dark .app-header h2.app-subtitle {
+  color: #64a3ff;
+}
+
 .app-header p {
-  margin: 0;
+  margin: 0 0 1rem;
   font-size: 0.9rem;
   opacity: 0.8;
+}
+
+.intro-content {
+  margin-top: 1.5rem;
+}
+
+.intro-content p {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  text-align: justify;
+}
+
+.intro-content p:last-child {
+  margin-bottom: 0;
+}
+
+.intro-content-section {
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+body.dark .intro-content-section {
+  background-color: rgba(31, 31, 31, 0.85);
+  border-color: var(--border-dark);
+}
+
+.intro-content-section h2 {
+  margin: 0 0 1.5rem;
+  font-size: 1.5rem;
+  color: var(--accent);
+}
+
+body.dark .intro-content-section h2 {
+  color: #64a3ff;
+}
+
+.intro-content-section h3 {
+  margin: 2rem 0 1rem;
+  font-size: 1.25rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+body.dark .intro-content-section h3 {
+  color: #64a3ff;
 }
 
 .app-main {
@@ -105,6 +173,11 @@ body.dark .app-footer {
 .control-panel-title {
   font-weight: 600;
   font-size: 0.95rem;
+}
+
+.chevron {
+  font-size: 1rem;
+  transition: opacity 0.2s ease;
 }
 
 .toggle-button {

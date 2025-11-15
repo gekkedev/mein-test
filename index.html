@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mein Test – Prüfungstrainer Einbürgerungstest</title>
+  <meta name="description" content="Kostenloser Prüfungstrainer für den deutschen Einbürgerungstest. Trainiere mit allen offiziellen Fragen des BAMF, verfolge deinen Fortschritt und bereite dich optimal auf die Einbürgerungsprüfung vor. Funktioniert offline als Progressive Web App.">
   <meta name="theme-color" content="#1457d1">
   <meta name="application-name" content="Mein Test">
   <link rel="icon" href="icons/favicon.ico">
@@ -28,14 +29,16 @@
     })();
   </script>
   <header class="app-header">
-    <h1>Mein Test</h1>
+    <h1><span class="brand-name">Mein Test</span></h1>
+    <h2 class="app-subtitle">Dein Prüfungstrainer für den Einbürgerungstest</h2>
     <p>Trainiere den deutschen Einbürgerungstest und fokussiere dich auf die Fragen, die du noch nicht sicher beherrschst.</p>
   </header>
 
   <main class="app-main">
-    <section class="control-panel">
+    <section class="control-panel collapsed">
       <div class="control-panel-header">
         <span class="control-panel-title">Einstellungen</span>
+        <span class="chevron">🔽</span>
       </div>
       <div id="control-panel-content" class="control-panel-content">
         <div class="control-group">
@@ -96,6 +99,34 @@
       <div id="image-wrapper" class="images" aria-live="polite"></div>
       <ul id="answers" class="answers"></ul>
     </section>
+
+  <section class="intro-content-section">
+    <div class="intro-content">
+      <h2>Über den Einbürgerungstest und Prüfungstrainer</h2>
+      <p>Willkommen bei <i>Mein Test</i>, dem kostenlosen Prüfungstrainer für den deutschen Einbürgerungstest. Diese Anwendung hilft dir dabei, dich optimal auf deine Einbürgerungsprüfung vorzubereiten, indem sie dir alle offiziellen Fragen des <a href="https://www.bamf.de" target="_blank" rel="noopener">Bundesamts für Migration und Flüchtlinge (BAMF)</a> zur Verfügung stellt.</p>
+      
+      <p>Der Einbürgerungstest ist ein wichtiger Schritt auf dem Weg zur deutschen Staatsangehörigkeit. Mit unserem intelligenten Prüfungstrainer kannst du gezielt die Fragen üben, die du noch nicht sicher beherrschst. Das System merkt sich deinen Fortschritt und passt die Fragenauswahl entsprechend an, sodass du effizient lernen kannst.</p>
+      
+      <p>Besonders praktisch: Die Anwendung funktioniert vollständig offline. Nach dem ersten Besuch werden alle Fragen und Bilder automatisch auf deinem Gerät gespeichert, sodass du auch ohne Internetverbindung weiter lernen kannst. Du kannst die App sogar auf deinem Smartphone oder Desktop installieren und wie eine native Anwendung verwenden.</p>
+      
+      <p>Der <a href="https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.html?nn=282388" target="_blank" rel="noopener">offizielle Fragenkatalog</a> enthält 460 Fragen zu verschiedenen Themenbereichen wie Geschichte, Politik, Gesellschaft und Geografie Deutschlands. Zusätzlich gibt es spezielle Fragen für jedes Bundesland. Unser Prüfungstrainer präsentiert dir diese Fragen in einer übersichtlichen und benutzerfreundlichen Oberfläche, damit du dich voll auf das Lernen konzentrieren kannst.</p>
+      
+      <p>Starte jetzt mit deiner Vorbereitung und nutze die verschiedenen Trainingsmodi, um deinen Lernfortschritt zu optimieren. Du kannst zwischen verschiedenen Einstellungen wählen: nur offene Fragen, alle Fragen oder bereits gelernte Fragen wiederholen. Zusätzlich kannst du spezifische Bundeslandfragen üben und die Reihenfolge der Fragen anpassen.</p>
+      
+      <p>Als moderner Prüfungstrainer bietet <i>Mein Test</i> eine intuitive Benutzeroberfläche mit fortschrittlichen Funktionen zur Lernunterstützung. Markiere Fragen als gelernt oder ungelernt, springe zu bestimmten Fragenummern und verfolge deinen Gesamtfortschritt in Echtzeit. Der Einbürgerungstest wird so zu einer strukturierten und effiziellen Lernerfahrung, die dich bestmöglich auf deine Prüfung vorbereitet.</p>
+      
+      <h3>Weiterführende Informationen und Ressourcen</h3>
+      <p>Für zusätzliche Unterstützung bei deiner Integration in Deutschland stehen dir verschiedene offizielle Stellen und Bildungsressourcen zur Verfügung:</p>
+
+      <p><strong>Offizielle Portale:</strong> Das <a href="https://www.make-it-in-germany.com" target="_blank" rel="noopener">digitale Serviceportal der Bundesregierung</a> und <a href="https://www.deutschland.de" target="_blank" rel="noopener">Deutschland.de</a> bieten umfassende Informationen zu allen Behördengängen und dem Leben in Deutschland. Die <a href="https://www.integrationsbeauftragte.de" target="_blank" rel="noopener">Beauftragte der Bundesregierung für Integration</a> koordiniert die Integrationspolitik und bietet wertvolle Hilfestellungen.</p>
+
+      <p><strong>Sprachliche Vorbereitung:</strong> Das <a href="https://www.goethe.de/de/spr/kup/prf/prf/gzb2.html" target="_blank" rel="noopener">Goethe-Institut</a> unterstützt dich bei der deutschen Sprachentwicklung, während <a href="https://learngerman.dw.com/de/overview" target="_blank" rel="noopener">Deutsche Welle</a> kostenlose Online-Deutschkurse anbietet.</p>
+
+      <p><strong>Bildung und Bürgerkunde:</strong> Die <a href="https://www.bpb.de" target="_blank" rel="noopener">Bundeszentrale für politische Bildung</a> vermittelt fundiertes Wissen über deutsche Geschichte, Politik und Gesellschaft. Detaillierte Informationen zur <a href="https://de.wikipedia.org/wiki/Deutsche_Staatsangeh%C3%B6rigkeit" target="_blank" rel="noopener">deutschen Staatsbürgerschaft</a> und zum <a href="https://de.wikipedia.org/wiki/Einb%C3%BCrgerung" target="_blank" rel="noopener">Einbürgerungsverfahren</a> findest du in den entsprechenden Wikipedia-Artikeln.</p>
+
+      <p><strong>Lokale Unterstützung:</strong> <a href="https://www.volkshochschule.de" target="_blank" rel="noopener">Volkshochschulen in ganz Deutschland</a> bieten Integrationskurse und persönliche Betreuung vor Ort.</p>
+    </div>
+  </section>
   </main>
 
   <footer class="app-footer">

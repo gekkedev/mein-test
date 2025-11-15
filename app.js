@@ -29,6 +29,7 @@ const elements = {
   closeLightbox: document.querySelector("#close-lightbox"),
   controlPanel: document.querySelector(".control-panel"),
   controlPanelHeader: document.querySelector(".control-panel-header"),
+  chevron: document.querySelector(".chevron"),
   congratulationsModal: document.querySelector("#congratulations-modal"),
   congratulationsMessage: document.querySelector("#congratulations-message"),
   congratsTotalQuestions: document.querySelector("#congrats-total-questions"),
@@ -75,6 +76,11 @@ async function init() {
   // Note: selectedBundesland will be loaded after questions are loaded
   
   attachEventListeners();
+
+  // Set initial chevron state
+  if (elements.chevron && elements.controlPanel.classList.contains("collapsed")) {
+    elements.chevron.textContent = "🔽";
+  }
 
   try {
     await loadQuestions();
@@ -230,6 +236,9 @@ function attachEventListeners() {
     if (elements.controlPanelHeader) {
       elements.controlPanelHeader.addEventListener("click", (e) => {
           elements.controlPanel.classList.toggle("collapsed");
+          if (elements.chevron) {
+            elements.chevron.textContent = elements.controlPanel.classList.contains("collapsed") ? "🔽" : "🔼";
+          }
       });
     }
   }
