@@ -85,12 +85,6 @@ async function init() {
   try {
     await loadQuestions();
     
-    // Now load bundesland preference after the dropdown is populated
-    if (preferences.selectedBundesland) {
-      state.selectedBundesland = preferences.selectedBundesland;
-      elements.bundeslandFilter.value = preferences.selectedBundesland;
-    }
-    
     updateProgressLabels();
     
     // Check if there's a question ID in the URL
@@ -350,6 +344,18 @@ function populateBundeslandSelector() {
     option.textContent = bundesland;
     elements.bundeslandFilter.appendChild(option);
   });
+
+  // Apply stored preference after options are populated
+  const preferences = loadPreferences();
+  if (preferences.selectedBundesland) {
+    // Use setTimeout to ensure DOM is updated
+    setTimeout(() => {
+      state.selectedBundesland = preferences.selectedBundesland;
+      elements.bundeslandFilter.value = preferences.selectedBundesland;
+      // Trigger progress update to recalculate percentage
+      updateProgressLabels();
+    }, 0);
+  }
 }
 
 function pickNextQuestion() {
