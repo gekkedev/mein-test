@@ -72,15 +72,19 @@ async function init() {
     state.questionOrder = preferences.questionOrder;
     elements.questionOrder.value = preferences.questionOrder;
   }
-  if (preferences.selectedBundesland) {
-    state.selectedBundesland = preferences.selectedBundesland;
-    elements.bundeslandFilter.value = preferences.selectedBundesland;
-  }
+  // Note: selectedBundesland will be loaded after questions are loaded
   
   attachEventListeners();
 
   try {
     await loadQuestions();
+    
+    // Now load bundesland preference after the dropdown is populated
+    if (preferences.selectedBundesland) {
+      state.selectedBundesland = preferences.selectedBundesland;
+      elements.bundeslandFilter.value = preferences.selectedBundesland;
+    }
+    
     updateProgressLabels();
     
     // Check if there's a question ID in the URL
@@ -250,6 +254,7 @@ function attachEventListeners() {
   if (elements.congratsContinue) {
     elements.congratsContinue.addEventListener("click", () => {
       hideCongratulationsModal();
+      pickNextQuestion();
     });
   }
 
